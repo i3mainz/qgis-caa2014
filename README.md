@@ -1,7 +1,8 @@
 qgis-caa2014
 ============
 
-### Willkommen beim QGIS 2.0 Tutorial für die CAA 2014 in Tübingen
+### Willkommen beim QGIS 2.0 Tutorial
+### Workshop der AG CAA in Tübingen, 15. Februar 2014
 
 Die Einbindung unterschiedlicher Datenquellen
 
