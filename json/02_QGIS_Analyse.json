@@ -10,7 +10,9 @@
       "index": 0,
       "selected": false,
       "active": false,
-      "markdown": "###II Analytische Funktionen\n\n1. Überblick der Funktionen\n\t* Built-In: gdal, ftools\n\t* Plugins: \n    \t* Processing (SEXTANTE)\n    \t* GRASS\n    \t* etc.\n\n2. Analytisches Arbeiten\n\t* Vektor\n    * Raster\n    \n3. Erweiterte Prozessierungsmöglichkeiten\n\t* Grafische Modellierung\n\t* Zugriff über Python-Skripte"
+      "markdown": "###II Analytische Funktionen\n\n1. Überblick der Funktionen\n\t* Built-In: gdal, ftools\n\t* Plugins: \n    \t* Processing (SEXTANTE)\n    \t* GRASS\n    \t* etc.\n\n2. Analytisches Arbeiten\n\t* Vektor\n    * Raster\n    \n3. Erweiterte Prozessierungsmöglichkeiten\n\t* Grafische Modellierung\n\t* Zugriff über Python-Skripte",
+      "x": 180,
+      "y": 180
     },
     {
       "components": [],
@@ -22,7 +24,9 @@
       "index": 1,
       "selected": false,
       "active": false,
-      "markdown": "###II Analytische Funktionen\n####1\\. Überblick der Funktionen\n\nBuilt-In\n\n* Vektor: ftools\n\t* Puffer\n    * Verschneidung\n    * Zusammenführung\n    * Konvertierungen\n    * Einfache Analyse\n    * etc."
+      "markdown": "###II Analytische Funktionen\n####1\\. Überblick der Funktionen\n\nBuilt-In\n\n* Vektor: ftools\n\t* Puffer\n    * Verschneidung\n    * Zusammenführung\n    * Konvertierungen\n    * Einfache Analyse\n    * etc.",
+      "x": 460,
+      "y": 180
     },
     {
       "components": [
@@ -49,7 +53,9 @@
       "index": 2,
       "selected": false,
       "active": false,
-      "markdown": ""
+      "markdown": "",
+      "x": 740,
+      "y": 180
     },
     {
       "components": [],
@@ -61,7 +67,9 @@
       "index": 3,
       "selected": false,
       "active": false,
-      "markdown": "###II Analytische Funktionen\n####1\\. Überblick der Funktionen\n\nBuilt-In\n\n* Raster: gdal\n\t* Reprojezieren\n    * Konvertieren\n    * Kacheln\n    * Pyramiden\n    * Einfache Analyse\n    * etc.\n    \n"
+      "markdown": "###II Analytische Funktionen\n####1\\. Überblick der Funktionen\n\nBuilt-In\n\n* Raster: gdal\n\t* Reprojizieren\n    * Konvertieren\n    * Kacheln\n    * Pyramiden\n    * Einfache Analyse\n    * etc.\n    \n",
+      "x": 1020,
+      "y": 180
     },
     {
       "components": [
@@ -88,7 +96,9 @@
       "index": 4,
       "selected": false,
       "active": false,
-      "markdown": ""
+      "markdown": "",
+      "x": 1300,
+      "y": 180
     },
     {
       "components": [],
@@ -100,7 +110,9 @@
       "index": 5,
       "selected": false,
       "active": false,
-      "markdown": "###II Analytische Funktionen\n####1\\. Überblick der Funktionen\n\nPlugins\n\n* GRASS\n* Processing (ehem. SEXTANTE)\n* Rastergeländeanalyse-Erweiterung\n* MMQGIS\n* lastools\n"
+      "markdown": "###II Analytische Funktionen\n####1\\. Überblick der Funktionen\n\nPlugins\n\n* GRASS\n* Processing (ehem. SEXTANTE)\n* Rastergeländeanalyse-Erweiterung\n* MMQGIS\n* lastools\n",
+      "x": 1580,
+      "y": 180
     },
     {
       "components": [],
@@ -112,7 +124,9 @@
       "index": 6,
       "selected": false,
       "active": false,
-      "markdown": "###II Analytische Funktionen\n####1\\. Überblick der Funktionen\n\nGRASS\n\n* Bearbeitung der Daten in GRASS-Umgebung (Mapset)\n* Mittlerweile auch eine komfortable GUI\n"
+      "markdown": "###II Analytische Funktionen\n####1\\. Überblick der Funktionen\n\nGRASS\n\n* Bearbeitung der Daten in GRASS-Umgebung (Mapset)\n* Mittlerweile auch eine komfortable GUI\n",
+      "x": 1860,
+      "y": 460
     },
     {
       "components": [
@@ -139,7 +153,9 @@
       "index": 7,
       "selected": false,
       "active": false,
-      "markdown": ""
+      "markdown": "",
+      "x": 2140,
+      "y": 460
     },
     {
       "components": [
@@ -165,7 +181,10 @@
       "rotateZ": 0,
       "index": 8,
       "selected": false,
-      "active": false
+      "active": false,
+      "x": 2420,
+      "y": 460,
+      "markdown": ""
     },
     {
       "components": [],
@@ -177,7 +196,9 @@
       "index": 9,
       "selected": false,
       "active": false,
-      "markdown": "###II Analytische Funktionen\n####1\\. Überblick der Funktionen\n\nProcessing (ehem. SEXTANTE)\n\n* Einbindung verschiedener Bibliotheken\n\t* GDAL/OGR\n    * GRASS\n    * SAGA\n    * Orfeo"
+      "markdown": "###II Analytische Funktionen\n####1\\. Überblick der Funktionen\n\nProcessing (ehem. SEXTANTE)\n\n* Einbindung verschiedener Bibliotheken\n\t* GDAL/OGR\n    \t*identisch mit Raster/Vektormenü???\n    * GRASS\n    * SAGA\n    * Orfeo-Toolbox",
+      "x": 2700,
+      "y": 460
     },
     {
       "components": [
@@ -204,7 +225,9 @@
       "index": 10,
       "selected": false,
       "active": false,
-      "markdown": ""
+      "markdown": "",
+      "x": 2980,
+      "y": 460
     },
     {
       "components": [],
@@ -216,7 +239,9 @@
       "index": 11,
       "selected": false,
       "active": false,
-      "markdown": "###II Analytische Funktionen\n####1\\. Überblick der Funktionen\n\nRastergeländeanalyse-Erweiterung\n\n* Neigung\n* Perspektive\n* Schummerung\n* Relief\n* Rauhigkeitsindex\n"
+      "markdown": "###II Analytische Funktionen\n####1\\. Überblick der Funktionen\n\nRastergeländeanalyse-Erweiterung\n\n* Neigung\n* Perspektive\n* Schummerung\n* Relief\n* Rauhigkeitsindex\n",
+      "x": 3260,
+      "y": 460
     },
     {
       "components": [
@@ -242,7 +267,10 @@
       "rotateZ": 0,
       "index": 12,
       "selected": false,
-      "active": false
+      "active": false,
+      "x": 3540,
+      "y": 740,
+      "markdown": ""
     },
     {
       "components": [],
@@ -254,7 +282,9 @@
       "index": 13,
       "selected": false,
       "active": false,
-      "markdown": "###II Analytische Funktionen\n####1\\. Überblick der Funktionen\n\nMMQGIS\n* Annimationen\n* Joins\n* Geocoding\n* Import/Export"
+      "markdown": "###II Analytische Funktionen\n####1\\. Überblick der Funktionen\n\nMMQGIS\n* Animationen\n* Joins\n* Geocoding\n* Import/Export",
+      "x": 3820,
+      "y": 740
     },
     {
       "components": [
@@ -281,7 +311,9 @@
       "index": 14,
       "selected": false,
       "active": false,
-      "markdown": ""
+      "markdown": "",
+      "x": 4100,
+      "y": 740
     },
     {
       "components": [],
@@ -293,7 +325,9 @@
       "index": 15,
       "selected": false,
       "active": false,
-      "markdown": "###II Analytische Funktionen\n####1\\. Überblick der Funktionen\n\nLAStools\n\n* extra Installation notwendig"
+      "markdown": "###II Analytische Funktionen\n####1\\. Überblick der Funktionen\n\nLAStools\n\n* extra Installation notwendig",
+      "x": 4380,
+      "y": 740
     },
     {
       "components": [],
@@ -305,7 +339,9 @@
       "index": 16,
       "selected": false,
       "active": false,
-      "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nVektor  \n  * Wie weit liegen die Fundorte vom nächsten Gewässer?  \n  * Wie viele Minen liegen in jedem Herrschaftsgebiet?  \n  * Welche geologischen Vorkommen treten in welchem Ausmaß in den Herrschaftsgebieten auf?  \n"
+      "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nVektor  \n  * Wie weit liegen die Fundorte vom nächsten Gewässer?  \n  * Wie viele Minen liegen in jedem Herrschaftsgebiet?  \n  * Welche geologischen Vorkommen treten in welchem Flächenmaß in den Herrschaftsgebieten auf?  \n",
+      "x": 4660,
+      "y": 740
     },
     {
       "components": [],
@@ -317,7 +353,9 @@
       "index": 17,
       "selected": false,
       "active": false,
-      "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nWie weit liegen die Fundorte vom nächsten Gewässer?  \n  * GRASS Algorithmus (v.distance)  \n  &#10149; liefert Geometrie\n  * Vektorfeldrechner  \n  &#10149; Länge der Geometrie berechnen\n  "
+      "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nWie weit liegen die Fundorte vom nächsten Gewässer?  \n  * GRASS Algorithmus (v.distance)  \n  &#10149; liefert Geometrie\n  * Vektorfeldrechner  \n  &#10149; Länge der Geometrie berechnen\n  ",
+      "x": 4940,
+      "y": 740
     },
     {
       "components": [],
@@ -329,7 +367,9 @@
       "index": 18,
       "selected": false,
       "active": false,
-      "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nWie viele Minen liegen in jedem Herrschaftsgebiet?\n  * Punkte zählen  \n  &#10149; Vektor &#10149; Analyse-Werkzeuge &#10149; Punkte in Polygonen\n  * Join  \n  &#10149; Eigenschaften &#10149; Verknüpfungen &#10149; Abspeichern\n  "
+      "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nWie viele Minen liegen in jedem Herrschaftsgebiet?\n  * Punkte zählen  \n  &#10149; Vektor &#10149; Analyse-Werkzeuge &#10149; Punkte in Polygonen\n  * Join  \n  &#10149; Eigenschaften &#10149; Verknüpfungen &#10149; Abspeichern\n  ",
+      "x": 5220,
+      "y": 1020
     },
     {
       "components": [],
@@ -341,7 +381,9 @@
       "index": 19,
       "selected": false,
       "active": false,
-      "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nWelche geologischen Vorkommen treten in welchem Ausmaß in den Herrschaftsgebieten auf?\n\n#TODO\n\n"
+      "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nWelche geologischen Vorkommen treten mit welchem Flächenanteil in den Herrschaftsgebieten auf?\n\n#TODO\n\n",
+      "x": 5500,
+      "y": 1020
     },
     {
       "components": [],
@@ -353,7 +395,9 @@
       "index": 20,
       "selected": false,
       "active": false,
-      "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nRaster\n  * Herstellung eines Reliefs zur Visualisierung\n  * Bestimmung der Meereshöhe aller Fundorte\n"
+      "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nRaster\n  * Herstellung eines Reliefs zur Visualisierung\n  * Bestimmung der Meereshöhe aller Fundorte\n",
+      "x": 5780,
+      "y": 1020
     },
     {
       "components": [],
@@ -365,7 +409,9 @@
       "index": 21,
       "selected": false,
       "active": false,
-      "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nHerstellung eines Reliefs zur Visualisierung\n\n  * Raster  \n  &#10149; Geländeanalyse &#10149; Relief\n  \n  * Farben importieren  \n  &#10149; \\Ausgangsdaten\\vorlagen\\relief_farben\n  \n  * 0-Werte mit NULL ersetzen  \n  \t&#10149; QGIS2: Layer-Eigenschaften (leider noch mit Bug)  \n    &#10149; Reprojezieren &#10149; Leerwerte &#10149; neues TIFF speichern"
+      "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nHerstellung eines Reliefs zur Visualisierung\n\n  * Raster  \n  &#10149; Geländeanalyse &#10149; Relief\n  \n  * Farben importieren  \n  &#10149; \\Ausgangsdaten\\vorlagen\\relief_farben\n  \n  * 0-Werte mit NULL ersetzen  \n  \t&#10149; QGIS2: Layer-Eigenschaften (leider noch mit Bug)  \n    &#10149; Reprojizieren &#10149; Leerwerte &#10149; neues TIFF speichern",
+      "x": 6060,
+      "y": 1020
     },
     {
       "components": [
@@ -391,7 +437,10 @@
       "rotateZ": 0,
       "index": 22,
       "selected": false,
-      "active": false
+      "active": false,
+      "x": 6340,
+      "y": 1020,
+      "markdown": ""
     },
     {
       "components": [
@@ -418,7 +467,10 @@
       "rotateZ": 0,
       "index": 23,
       "selected": false,
-      "active": false
+      "active": false,
+      "x": 6620,
+      "y": 1020,
+      "markdown": ""
     },
     {
       "components": [
@@ -445,7 +497,9 @@
       "index": 24,
       "selected": false,
       "active": false,
-      "markdown": ""
+      "markdown": "",
+      "x": 6900,
+      "y": 1300
     },
     {
       "components": [],
@@ -457,7 +511,9 @@
       "index": 25,
       "selected": false,
       "active": false,
-      "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nBestimmung der Meereshöhe aller Fundorte\n\n  * Plugin  \n  &#10149; Point Sampling Tool  \n  &#10149; kann Rasterwerte und Vektorattribute in einen Layer schreiben"
+      "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nBestimmung der Meereshöhe aller Fundorte\n\n  * Plugin  \n  &#10149; Point Sampling Tool  \n  &#10149; kann Rasterwerte und Vektorattribute in einen Layer schreiben",
+      "x": 7180,
+      "y": 1300
     },
     {
       "components": [
@@ -483,7 +539,10 @@
       "rotateZ": 0,
       "index": 26,
       "selected": false,
-      "active": false
+      "active": false,
+      "x": 7460,
+      "y": 1300,
+      "markdown": ""
     },
     {
       "components": [],
@@ -495,7 +554,9 @@
       "index": 27,
       "selected": false,
       "active": false,
-      "markdown": "###II Analytische Funktionen\n####3\\. Erweiterte Prozessierungsmöglichkeiten\n\nAutomatisierte Ausführung mehrerer Prozessierungsschritte\n* Grafische Modellierung\n* Zugriff über Python-Skripte"
+      "markdown": "###II Analytische Funktionen\n####3\\. Erweiterte Prozessierungsmöglichkeiten\n\nAutomatisierte Ausführung mehrerer Prozessierungsschritte\n* Grafische Modellierung\n* Zugriff über Python-Skripte",
+      "x": 7740,
+      "y": 1300
     },
     {
       "components": [],
@@ -507,7 +568,9 @@
       "index": 28,
       "selected": false,
       "active": false,
-      "markdown": "###II Analytische Funktionen\n####3\\. Erweiterte Prozessierungsmöglichkeiten\n\nGrafische Modellierung\n* Verkettung mehrerer Prozesse zu komplexen Modellen\n* Konfiguration über grafische Benutzeroberfläche\n* keine Programmierung erforderlich"
+      "markdown": "###II Analytische Funktionen\n####3\\. Erweiterte Prozessierungsmöglichkeiten\n\nGrafische Modellierung\n* Verkettung mehrerer Prozesse zu komplexen Modellen\n* Konfiguration über grafische Benutzeroberfläche\n* keine Programmierung erforderlich\n* Parametrisierbar???",
+      "x": 8020,
+      "y": 1300
     },
     {
       "components": [],
@@ -519,7 +582,9 @@
       "index": 29,
       "selected": false,
       "active": false,
-      "markdown": "###II Analytische Funktionen\n####3\\. Erweiterte Prozessierungsmöglichkeiten\n\nGrafische Modellierung - Beispielszenario  \n  \n* Herrschaftsgebiete um Fundorte bestimmen  \n  \n\t1. Einzugsgebiete berechnen (Voronoi-Methode)\n\t2. Ergebnis mit Küstenlinie verschneiden"
+      "markdown": "###II Analytische Funktionen\n####3\\. Erweiterte Prozessierungsmöglichkeiten\n\nGrafische Modellierung - Beispielszenario  \n  \n* Herrschaftsgebiete um Fundorte bestimmen  \n  \n\t1. Einzugsgebiete berechnen (Voronoi-Methode)\n\t2. Ergebnis mit Küstenlinie verschneiden",
+      "x": 8300,
+      "y": 1300
     },
     {
       "components": [
@@ -546,7 +611,9 @@
       "index": 30,
       "selected": false,
       "active": false,
-      "markdown": ""
+      "markdown": "",
+      "x": 8580,
+      "y": 1580
     },
     {
       "components": [
@@ -573,7 +640,9 @@
       "index": 31,
       "selected": false,
       "active": false,
-      "markdown": ""
+      "markdown": "",
+      "x": 8860,
+      "y": 1580
     },
     {
       "components": [],
@@ -583,9 +652,11 @@
       "rotateY": 0,
       "rotateZ": 0,
       "index": 32,
-      "selected": true,
-      "active": true,
-      "markdown": "###II Analytische Funktionen\n####3\\. Erweiterte Prozessierungsmöglichkeiten\n\nPython in QGIS\n\n* Konsole\n\t* Direkte Ausführung\n* Skripte\n\t* Verkettung von Funktionen\n* Plugins\n\t* Eigenes Tutorial"
+      "selected": false,
+      "active": false,
+      "markdown": "###II Analytische Funktionen\n####3\\. Erweiterte Prozessierungsmöglichkeiten\n\nPython in QGIS\n\n\t* Konsole\n\t\t* Direkte Ausführung\n\t* Skripte\n\t\t* Verkettung von Funktionen\n\t* Plugins\n\t\t* Eigenes Tutorial",
+      "x": 9140,
+      "y": 1580
     },
     {
       "components": [],
@@ -597,7 +668,9 @@
       "index": 33,
       "selected": false,
       "active": false,
-      "markdown": "###II Analytische Funktionen\n####3\\. Erweiterte Prozessierungsmöglichkeiten\n\nPython in QGIS\n\n* weiterführende Links\n\t* PyQGIS Cookbook: http://www.qgis.org/en/docs/pyqgis_developer_cookbook/intro.html\n    * Plugins: http://www.qgis.org/en/docs/pyqgis_developer_cookbook/plugins.html#developing-plugins\n    * API: http://qgis.org/api/ "
+      "markdown": "###II Analytische Funktionen\n####3\\. Erweiterte Prozessierungsmöglichkeiten\n\nPython in QGIS\n\n* weiterführende Links\n\t* PyQGIS Cookbook: http://www.qgis.org/en/docs/pyqgis_developer_cookbook/intro.html\n    * Plugins: http://www.qgis.org/en/docs/pyqgis_developer_cookbook/plugins.html#developing-plugins\n    * API: http://qgis.org/api/ ",
+      "x": 9420,
+      "y": 1580
     },
     {
       "components": [],
@@ -607,9 +680,11 @@
       "rotateY": 0,
       "rotateZ": 0,
       "index": 34,
-      "selected": false,
-      "active": false,
-      "markdown": "###II Analytische Funktionen\n####3\\. Erweiterte Prozessierungsmöglichkeiten\n\nZugriff über Python-Skripte\n\n* Skriptbasierte Verkettung mehrerer Prozesse\n* Modelle können als Skripte gespeichert werden\n* Aufruf und Bearbeitung auch über Werkzeugkiste\n"
+      "selected": true,
+      "active": true,
+      "markdown": "###II Analytische Funktionen\n####3\\. Erweiterte Prozessierungsmöglichkeiten\n\nZugriff über Python-Skripte\n\n* Skriptbasierte Verkettung mehrerer Prozesse\n* Modelle können als Skripte gespeichert werden\n* Aufruf und Bearbeitung auch über Werkzeugkiste\n",
+      "x": 9700,
+      "y": 1580
     }
   ],
   "activeSlide": {
@@ -619,10 +694,12 @@
     "rotateX": 0,
     "rotateY": 0,
     "rotateZ": 0,
-    "index": 32,
+    "index": 34,
     "selected": true,
     "active": true,
-    "markdown": "###II Analytische Funktionen\n####3\\. Erweiterte Prozessierungsmöglichkeiten\n\nPython in QGIS\n\n* Konsole\n\t* Direkte Ausführung\n* Skripte\n\t* Verkettung von Funktionen\n* Plugins\n\t* Eigenes Tutorial"
+    "markdown": "###II Analytische Funktionen\n####3\\. Erweiterte Prozessierungsmöglichkeiten\n\nZugriff über Python-Skripte\n\n* Skriptbasierte Verkettung mehrerer Prozesse\n* Modelle können als Skripte gespeichert werden\n* Aufruf und Bearbeitung auch über Werkzeugkiste\n",
+    "x": 9700,
+    "y": 1580
   },
   "fileName": "QGIS_Analyse",
   "customStylesheet": ".strut-surface .themedArea {\n  font-family: \"Arial\", sans-serif;\n  font-size: 36px;\n  font-weight: 200;\n  letter-spacing: -0.02em;\n  color: #333; }\n\n.strut-surface .themedArea h1,\n.strut-surface .themedArea h2,\n.strut-surface .themedArea h3,\n.strut-surface .themedArea h4,\n.strut-surface .themedArea h5,\n.strut-surface .themedArea h6 {\n  margin: 0 0 20px 0;\n  color: #333;\n  font-family: 'Arial Black', Impact;\n  line-height: 0.9em;\n  letter-spacing: 0.02em;\n  text-transform: none;\n  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }\n\n.strut-surface .themedArea{\n \ttext-align:left;\n  \tpadding:1cm;\n}\n/*classes for h elements are used as follows*/\n/*#qgis-tutorial{\n  \ttext-align: center;\n}*/\n.strut-surface h1{\n  \tfont-size:260%;\n  \ttext-shadow: none;\n}\n\n.strut-surface h2{\n  \tfont-size:200%\n}\n.strut-surface h3{\n  \tfont-size:160%\n}\n.strut-surface h4{\n  \tfont-size:130%\n}",
