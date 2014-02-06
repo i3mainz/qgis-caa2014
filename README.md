@@ -10,8 +10,8 @@ I Grundlagen
   * Nützliche Anpassungen und Erweiterungen  
 
 II Analytische Funktionen
-  1. Kernfunktionalitäten auf Grundlage der gdal-/ogr-Bibl.
-  * Erweiterte Funktionen über PlugIns
+  1. Überblick der Funktionen
+  * Analytisches Arbeiten
   * Erweiterte Prozessierungsmöglichkeiten  
     
 III Präsentation der Ergebnisse mit dem Print-Composer
