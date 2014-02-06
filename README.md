@@ -4,19 +4,16 @@ qgis-caa2014
 ### Willkommen beim QGIS 2.0 Tutorial
 ### Workshop der AG CAA in Tübingen, 15. Februar 2014
 
-Die Einbindung unterschiedlicher Datenquellen
+I Grundlagen
+  1. AtlantGIS - Das Szenario
+  * Die Einbindung unterschiedlicher Datenquellen
+  * Nützliche Anpassungen und Erweiterungen  
 
-* Dateibasierte Raster- und Vektorformate
-* Geodatenbanken
-* OGC-Geodaten Web-Services
-
-Analytische Funktionen
-
-* Kernfunktionalitäten auf Grundlage der gdal-/ogr-Bibliotheken
-* Erweiterte Funktionen über PlugIns
-* Zugriff über die Python-Konsole
-
-Präsentation der Ergebnisse mit dem Print-Composer
-
-* Erstellen und Verwalten von Layouts
-* Zusammenstellung spezifischer Kartierungen
+II Analytische Funktionen
+  1. Kernfunktionalitäten auf Grundlage der gdal-/ogr-Bibl.
+  * Erweiterte Funktionen über PlugIns
+  * Erweiterte Prozessierungsmöglichkeiten  
+    
+III Präsentation der Ergebnisse mit dem Print-Composer
+  1. Erstellen und Verwalten von Layouts
+  * Zusammenstellung spezifischer Kartierungen  
