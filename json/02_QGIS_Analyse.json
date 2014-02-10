@@ -22,8 +22,8 @@
       "rotateY": 0,
       "rotateZ": 0,
       "index": 1,
-      "selected": false,
-      "active": false,
+      "selected": true,
+      "active": true,
       "markdown": "###II Analytische Funktionen\n####1\\. Überblick der Funktionen\n\nBuilt-In\n\n* Vektor: ftools\n\t* Puffer\n    * Verschneidung\n    * Zusammenführung\n    * Konvertierungen\n    * Einfache Analyse\n    * etc.",
       "x": 460,
       "y": 180
@@ -337,14 +337,43 @@
       "rotateY": 0,
       "rotateZ": 0,
       "index": 16,
-      "selected": true,
-      "active": true,
-      "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nWie weit liegen die Fundorte vom nächsten Gewässer?\n  * GRASS Algorithmus (v.distance)\n  \n  \"distance\"-Spalten müssen existieren!\n  \n  \n  &#10149; liefert Geometrie\n  * Vektorfeldrechner  \n  &#10149; Länge der Geometrie berechnen\n  ",
+      "selected": false,
+      "active": false,
+      "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nWie weit liegen die Fundorte vom nächsten Gewässer?\n  * GRASS Algorithmus (v.distance)  \n  &#10149; liefert Geometrie\n<br>(\"distance\"-Spalten müssen existieren!)\n  * Vektorfeldrechner  \n  &#10149; Länge der Geometrie berechnen\n  ",
       "x": 4940,
       "y": 740
     },
     {
-      "components": [],
+      "components": [
+        {
+          "src": "http://i.imgur.com/liIco8g.png",
+          "type": "Image",
+          "x": 1,
+          "y": 8,
+          "scale": {
+            "x": 0.8690476190476191,
+            "y": 0.8690476190476191,
+            "width": 1022,
+            "height": 751.7261904761905
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/ABzJOXY.png",
+          "type": "Image",
+          "x": 894,
+          "y": 398,
+          "scale": {
+            "x": 0.40625,
+            "y": 0.40625,
+            "width": 104,
+            "height": 104
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
       "z": 0,
       "impScale": 3,
       "rotateX": 0,
@@ -356,13 +385,169 @@
       "markdown": ""
     },
     {
-      "components": [],
+      "components": [
+        {
+          "src": "http://i.imgur.com/8UZXMjQ.png",
+          "type": "Image",
+          "x": -1,
+          "y": 7,
+          "scale": {
+            "x": 0.8732993197278912,
+            "y": 0.8732993197278912,
+            "width": 1027,
+            "height": 755.4039115646259
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
       "z": 0,
       "impScale": 3,
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
       "index": 18,
+      "selected": false,
+      "active": false
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/dUpnK5b.png",
+          "type": "Image",
+          "x": 0,
+          "y": 8,
+          "scale": {
+            "x": 0.8707482993197279,
+            "y": 0.8707482993197279,
+            "width": 1024,
+            "height": 753.1972789115646
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 19,
+      "selected": false,
+      "active": false
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/sGgUvX8.png",
+          "type": "Image",
+          "x": -1,
+          "y": 7,
+          "scale": {
+            "x": 0.8724489795918368,
+            "y": 0.8724489795918368,
+            "width": 1026,
+            "height": 754.6683673469388
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 20,
+      "selected": false,
+      "active": false
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/YQwXQSX.png",
+          "type": "Image",
+          "x": -1,
+          "y": 7,
+          "scale": {
+            "x": 0.8732993197278912,
+            "y": 0.8732993197278912,
+            "width": 1027,
+            "height": 755.4039115646259
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 21,
+      "selected": false,
+      "active": false
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/udQKl73.png",
+          "type": "Image",
+          "x": -3,
+          "y": 5,
+          "scale": {
+            "x": 0.8767006802721089,
+            "y": 0.8767006802721089,
+            "width": 1031,
+            "height": 758.3460884353742
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 22,
+      "selected": false,
+      "active": false
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/Pc0uOb2.png",
+          "type": "Image",
+          "x": -2,
+          "y": 6,
+          "scale": {
+            "x": 0.875,
+            "y": 0.875,
+            "width": 1029,
+            "height": 756.875
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 23,
+      "selected": false,
+      "active": false
+    },
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 24,
       "selected": false,
       "active": false,
       "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nWie viele Minen liegen in jedem Herrschaftsgebiet?\n  * Punkte zählen  \n  &#10149; Vektor &#10149; Analyse-Werkzeuge &#10149; Punkte in Polygonen\n  * Join  \n  &#10149; Eigenschaften &#10149; Verknüpfungen &#10149; Abspeichern\n  "
@@ -374,7 +559,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 19,
+      "index": 25,
       "selected": false,
       "active": false,
       "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nWelche geologischen Vorkommen treten mit welchem Flächenanteil in den Herrschaftsgebieten auf?\n\n<br>\n\n&#10149; Vektor &#10149; Geoverabeitungswerkzeuge &#10149; Schnittmengen\n\n  Bei dem sich ergebenden Layer: <br> <br>\n&#10149; Attributtabelle &#10149; Bearbeitungsstatus umschalten <br>&#10149; Feldrechner öffnen\n&#10149; Neues Feld anlegen\n- Ausgabefeldname: area\n- Ausdruck: $area\n    ",
@@ -444,7 +629,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 20,
+      "index": 26,
       "selected": false,
       "active": false
     },
@@ -512,7 +697,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 21,
+      "index": 27,
       "selected": false,
       "active": false
     },
@@ -523,7 +708,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 22,
+      "index": 28,
       "selected": false,
       "active": false,
       "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nRaster\n  * Herstellung eines Reliefs zur Visualisierung\n  * Bestimmung der Meereshöhe aller Fundorte",
@@ -537,7 +722,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 23,
+      "index": 29,
       "selected": false,
       "active": false,
       "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nHerstellung eines Reliefs zur Visualisierung\n\n  * Raster  \n  &#10149; Geländeanalyse &#10149; Relief\n  \n  * Farben importieren  \n  &#10149; \\Ausgangsdaten\\vorlagen\\relief_farben\n  \n  * 0-Werte mit NULL ersetzen  \n  \t&#10149; QGIS2: Layer-Eigenschaften (leider noch mit Bug)  \n    &#10149; Reprojizieren &#10149; Leerwerte &#10149; neues TIFF speichern",
@@ -566,7 +751,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 24,
+      "index": 30,
       "selected": false,
       "active": false,
       "x": 6340,
@@ -596,7 +781,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 25,
+      "index": 31,
       "selected": false,
       "active": false,
       "x": 6620,
@@ -625,7 +810,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 26,
+      "index": 32,
       "selected": false,
       "active": false,
       "markdown": "",
@@ -639,7 +824,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 27,
+      "index": 33,
       "selected": false,
       "active": false,
       "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nBestimmung der Meereshöhe aller Fundorte\n\n  * Plugin  \n  &#10149; Point Sampling Tool  \n  &#10149; kann Rasterwerte und Vektorattribute in einen Layer schreiben",
@@ -668,7 +853,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 28,
+      "index": 34,
       "selected": false,
       "active": false,
       "x": 7460,
@@ -682,7 +867,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 29,
+      "index": 35,
       "selected": false,
       "active": false,
       "markdown": "###II Analytische Funktionen\n####3\\. Erweiterte Prozessierungsmöglichkeiten\n\nAutomatisierte Ausführung mehrerer Prozessierungsschritte\n* Grafische Modellierung\n* Zugriff über Python-Skripte",
@@ -696,7 +881,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 30,
+      "index": 36,
       "selected": false,
       "active": false,
       "markdown": "###II Analytische Funktionen\n####3\\. Erweiterte Prozessierungsmöglichkeiten\n\nGrafische Modellierung\n* Verkettung mehrerer Prozesse zu komplexen Modellen\n* Konfiguration über grafische Benutzeroberfläche\n* keine Programmierung erforderlich\n<br> <br>\n* Einmalige Festlegung der Prozessparameter im Modell\n* Eingabe/Ausgabe variabel",
@@ -710,7 +895,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 31,
+      "index": 37,
       "selected": false,
       "active": false,
       "markdown": "###II Analytische Funktionen\n####3\\. Erweiterte Prozessierungsmöglichkeiten\n\nGrafische Modellierung - Beispielszenario  \n  \n* Herrschaftsgebiete um Fundorte bestimmen  \n  \n\t1. Einzugsgebiete berechnen (Voronoi-Methode)\n\t2. Ergebnis mit Küstenlinie verschneiden",
@@ -739,7 +924,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 32,
+      "index": 38,
       "selected": false,
       "active": false,
       "markdown": "",
@@ -768,7 +953,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 33,
+      "index": 39,
       "selected": false,
       "active": false,
       "markdown": "",
@@ -782,7 +967,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 34,
+      "index": 40,
       "selected": false,
       "active": false,
       "markdown": "###II Analytische Funktionen\n####3\\. Erweiterte Prozessierungsmöglichkeiten\n\nPython in QGIS\n\n* Konsole\n\t* Direkte Ausführung\n* Skripte\n\t* Verkettung von Funktionen\n* Entwicklung von Plugins\n\t* Eigenes Tutorial",
@@ -796,7 +981,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 35,
+      "index": 41,
       "selected": false,
       "active": false,
       "markdown": "###II Analytische Funktionen\n####3\\. Erweiterte Prozessierungsmöglichkeiten\n\nPython in QGIS\n\n* weiterführende Links\n\t* PyQGIS Cookbook: http://www.qgis.org/en/docs/pyqgis_developer_cookbook/intro.html\n    * Plugins: http://www.qgis.org/en/docs/pyqgis_developer_cookbook/plugins.html#developing-plugins\n    * API: http://qgis.org/api/ ",
@@ -810,7 +995,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 36,
+      "index": 42,
       "selected": false,
       "active": false,
       "markdown": "###II Analytische Funktionen\n####3\\. Erweiterte Prozessierungsmöglichkeiten\n\nZugriff über Python-Skripte\n\n* Skriptbasierte Verkettung mehrerer Prozesse\n* Modelle können als Skripte gespeichert werden\n* Aufruf und Bearbeitung auch über Werkzeugkiste\n",
@@ -825,12 +1010,12 @@
     "rotateX": 0,
     "rotateY": 0,
     "rotateZ": 0,
-    "index": 16,
+    "index": 1,
     "selected": true,
     "active": true,
-    "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nWie weit liegen die Fundorte vom nächsten Gewässer?\n  * GRASS Algorithmus (v.distance)\n  \n  \"distance\"-Spalten müssen existieren!\n  \n  \n  &#10149; liefert Geometrie\n  * Vektorfeldrechner  \n  &#10149; Länge der Geometrie berechnen\n  ",
-    "x": 4940,
-    "y": 740
+    "markdown": "###II Analytische Funktionen\n####1\\. Überblick der Funktionen\n\nBuilt-In\n\n* Vektor: ftools\n\t* Puffer\n    * Verschneidung\n    * Zusammenführung\n    * Konvertierungen\n    * Einfache Analyse\n    * etc.",
+    "x": 460,
+    "y": 180
   },
   "fileName": "QGIS_Analyse",
   "customStylesheet": ".strut-surface .themedArea {\n  font-family: \"Arial\", sans-serif;\n  font-size: 36px;\n  font-weight: 200;\n  letter-spacing: -0.02em;\n  color: #333; }\n\n.strut-surface .themedArea h1,\n.strut-surface .themedArea h2,\n.strut-surface .themedArea h3,\n.strut-surface .themedArea h4,\n.strut-surface .themedArea h5,\n.strut-surface .themedArea h6 {\n  margin: 0 0 20px 0;\n  color: #333;\n  font-family: 'Arial Black', Impact;\n  line-height: 0.9em;\n  letter-spacing: 0.02em;\n  text-transform: none;\n  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }\n\n.strut-surface .themedArea{\n \ttext-align:left;\n  \tpadding:1cm;\n}\n/*classes for h elements are used as follows*/\n/*#qgis-tutorial{\n  \ttext-align: center;\n}*/\n.strut-surface h1{\n  \tfont-size:260%;\n  \ttext-shadow: none;\n}\n\n.strut-surface h2{\n  \tfont-size:200%\n}\n.strut-surface h3{\n  \tfont-size:160%\n}\n.strut-surface h4{\n  \tfont-size:130%\n}",
