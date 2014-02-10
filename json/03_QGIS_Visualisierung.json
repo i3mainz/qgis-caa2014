@@ -10,7 +10,7 @@
       "index": 0,
       "selected": false,
       "active": false,
-      "markdown": "###III Präsentation der Ergebnisse mit dem Print-Composer\n1. Anzeige von Geodaten (Datenansicht)  \n <br>\n2. Erstellen und Verwalten von Druckzusammenstellungen  \n<br>\n3. Zusammenstellung spezifischer Kartierungen\n\t* Hinzufügen der erstellten Karte\n    * Anzeige von Koordinaten\n    * Nordpfeil!!!\n    * Legende"
+      "markdown": "###III Präsentation der Ergebnisse\n1. Anzeige von Geodaten (Datenansicht)  \n <br>\n2. Erstellen und Verwalten von Druckzusammenstellungen  \n<br>\n3. Zusammenstellung spezifischer Kartierungen\n\t* Hinzufügen der erstellten Karte\n    * Anzeige von Koordinaten\n    * Nordpfeil!!!\n    * Legende"
     },
     {
       "components": [],
@@ -32,8 +32,8 @@
       "rotateY": 0,
       "rotateZ": 0,
       "index": 2,
-      "selected": true,
-      "active": true,
+      "selected": false,
+      "active": false,
       "markdown": "####1\\. Anzeige von Geodaten (Datenansicht)\n * Manuelle Stilanpassung Voronoi-Polygone\n \n"
     },
     {
@@ -255,9 +255,21 @@
       "rotateY": 0,
       "rotateZ": 0,
       "index": 10,
+      "selected": true,
+      "active": true,
+      "markdown": "###III Präsentation der Ergebnisse\n####2\\. Erstellen und Verwalten von Druckzusammenstellungen\n"
+    },
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 11,
       "selected": false,
       "active": false,
-      "markdown": "###II Analytische Funktionen\n####2\\. Zusammenstellung spezifischer Kartierungen\n"
+      "markdown": "###III Präsentation der Ergebnisse\n####3\\. Zusammenstellung spezifischer Kartierungen\n"
     }
   ],
   "activeSlide": {
@@ -267,10 +279,10 @@
     "rotateX": 0,
     "rotateY": 0,
     "rotateZ": 0,
-    "index": 2,
+    "index": 10,
     "selected": true,
     "active": true,
-    "markdown": "####1\\. Anzeige von Geodaten (Datenansicht)\n * Manuelle Stilanpassung Voronoi-Polygone\n \n"
+    "markdown": "###III Präsentation der Ergebnisse\n####2\\. Erstellen und Verwalten von Druckzusammenstellungen\n"
   },
   "fileName": "QGIS_Present",
   "customStylesheet": ".strut-surface .themedArea {\n  font-family: \"Arial\", sans-serif;\n  font-size: 36px;\n  font-weight: 200;\n  letter-spacing: -0.02em;\n  color: #333; }\n\n.strut-surface .themedArea h1,\n.strut-surface .themedArea h2,\n.strut-surface .themedArea h3,\n.strut-surface .themedArea h4,\n.strut-surface .themedArea h5,\n.strut-surface .themedArea h6 {\n  margin: 0 0 20px 0;\n  color: #333;\n  font-family: 'Arial Black', Impact;\n  line-height: 0.9em;\n  letter-spacing: 0.02em;\n  text-transform: none;\n  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }\n\n.strut-surface .themedArea{\n \ttext-align:left;\n  \tpadding:1cm;\n}\n/*classes for h elements are used as follows*/\n/*#qgis-tutorial{\n  \ttext-align: center;\n}*/\n.strut-surface h1{\n  \tfont-size:260%;\n  \ttext-shadow: none;\n}\n\n.strut-surface h2{\n  \tfont-size:200%\n}\n.strut-surface h3{\n  \tfont-size:160%\n}\n.strut-surface h4{\n  \tfont-size:130%\n}",
