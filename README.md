@@ -14,7 +14,7 @@ II Analytische Funktionen
   * Analytisches Arbeiten
   * Erweiterte Prozessierungsmöglichkeiten  
     
-III Präsentation der Ergebnisse mit dem Print-Composer
+III Präsentation der Ergebnisse
   1. Anzeige von Geodaten (Datenansicht)
   * Erstellen und Verwalten von Layouts (Druckansicht)
   * Zusammenstellung spezifischer Kartierungen  
