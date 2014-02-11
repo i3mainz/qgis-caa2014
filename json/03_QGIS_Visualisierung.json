@@ -10,7 +10,7 @@
       "index": 0,
       "selected": false,
       "active": false,
-      "markdown": "###III Präsentation der Ergebnisse\n1. Anzeige von Geodaten (Datenansicht)  \n <br>\n2. Erstellen und Verwalten von Druckzusammenstellungen  \n<br>\n3. Zusammenstellung spezifischer Kartierungen\n\t* Hinzufügen der erstellten Karte\n    * Anzeige von Koordinaten\n    * Nordpfeil!!!\n    * Legende"
+      "markdown": "###III Präsentation der Ergebnisse\n1. Anzeige von Geodaten (Datenansicht)  \n <br>\n2. Erstellen und Verwalten von Druckzusammenstellungen  \n<br>\n3. Zusammenstellung spezifischer Kartierungen\n"
     },
     {
       "components": [],
@@ -25,7 +25,22 @@
       "markdown": "###III Präsentation der Ergebnisse\n####1\\. Anzeige von Geodaten (Datenansicht)\n * Manuelle Stilanpassung Voronoi-Polygone\n * Attributabhängige Visualisierung\n * Beschriftungen\n * Diagramme\n * ..."
     },
     {
-      "components": [],
+      "components": [
+        {
+          "src": "http://i.imgur.com/lQApM5H.png",
+          "type": "Image",
+          "x": 216,
+          "y": 274,
+          "scale": {
+            "x": 0.504251700680272,
+            "y": 0.504251700680272,
+            "width": 592.9999999999999,
+            "height": 436.1777210884353
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
       "z": 0,
       "impScale": 3,
       "rotateX": 0,
@@ -34,20 +49,20 @@
       "index": 2,
       "selected": false,
       "active": false,
-      "markdown": "####1\\. Anzeige von Geodaten (Datenansicht)\n * Manuelle Stilanpassung Voronoi-Polygone\n \n"
+      "markdown": "####1\\. Anzeige von Geodaten (Datenansicht)\nManuelle Stilanpassung  \n* Beispiel Voronoi Polygone  \n&#10149; zur Darstellung der Grenzen ohne Füllung\n \n"
     },
     {
       "components": [
         {
           "src": "http://i.imgur.com/KW2VN3Z.jpg",
           "type": "Image",
-          "x": 18,
-          "y": 21,
+          "x": -3,
+          "y": 6,
           "scale": {
-            "x": 0.809328968903437,
-            "y": 0.809328968903437,
-            "width": 989,
-            "height": 723.5400981996727
+            "x": 0.8436988543371521,
+            "y": 0.8436988543371521,
+            "width": 1030.9999999999998,
+            "height": 754.266775777414
           },
           "imageType": "JPG",
           "selected": false
@@ -120,7 +135,22 @@
       "markdown": ""
     },
     {
-      "components": [],
+      "components": [
+        {
+          "src": "http://i.imgur.com/3BloEqB.png",
+          "type": "Image",
+          "x": -6,
+          "y": 3,
+          "scale": {
+            "x": 0.8809523809523809,
+            "y": 0.8809523809523809,
+            "width": 1036,
+            "height": 762.0238095238095
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
       "z": 0,
       "impScale": 3,
       "rotateX": 0,
@@ -128,21 +158,47 @@
       "rotateZ": 0,
       "index": 4,
       "selected": false,
+      "active": false
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/3BloEqB.png",
+          "type": "Image",
+          "x": 194,
+          "y": 241,
+          "scale": {
+            "x": 0.5408163265306123,
+            "y": 0.5408163265306123,
+            "width": 636,
+            "height": 467.80612244897964
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 5,
+      "selected": false,
       "active": false,
-      "markdown": "####1\\. Anzeige von Geodaten (Datenansicht)\n* Attributabhängige Visualisierung"
+      "markdown": "####1\\. Anzeige von Geodaten (Datenansicht)\nAttributabhängige Visualisierung\n* Beispiel: Anzeige der Gewässer nach Durchflussvolumen"
     },
     {
       "components": [
         {
           "src": "http://i.imgur.com/agFi4Dc.jpg",
           "type": "Image",
-          "x": 16,
-          "y": 22,
+          "x": 0,
+          "y": 10,
           "scale": {
-            "x": 0.811783960720131,
-            "y": 0.811783960720131,
-            "width": 992.0000000000001,
-            "height": 724.923076923077
+            "x": 0.8387888707037644,
+            "y": 0.8387888707037644,
+            "width": 1025,
+            "height": 749.0384615384617
           },
           "imageType": "JPG",
           "selected": false
@@ -195,25 +251,28 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 5,
+      "index": 6,
       "selected": false,
       "active": false,
       "markdown": ""
     },
     {
-      "components": [],
-      "z": 0,
-      "impScale": 3,
-      "rotateX": 0,
-      "rotateY": 0,
-      "rotateZ": 0,
-      "index": 6,
-      "selected": false,
-      "active": false,
-      "markdown": "####1\\. Anzeige von Geodaten (Datenansicht)\n* Beschriftungen\n"
-    },
-    {
-      "components": [],
+      "components": [
+        {
+          "src": "http://i.imgur.com/0gwsPq7.png",
+          "type": "Image",
+          "x": -2,
+          "y": 6,
+          "scale": {
+            "x": 0.8741496598639457,
+            "y": 0.8741496598639457,
+            "width": 1028,
+            "height": 756.139455782313
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
       "z": 0,
       "impScale": 3,
       "rotateX": 0,
@@ -221,11 +280,25 @@
       "rotateZ": 0,
       "index": 7,
       "selected": false,
-      "active": false,
-      "markdown": ""
+      "active": false
     },
     {
-      "components": [],
+      "components": [
+        {
+          "src": "http://i.imgur.com/U4XA0OB.png",
+          "type": "Image",
+          "x": 186,
+          "y": 232,
+          "scale": {
+            "x": 0.5544217687074829,
+            "y": 0.5544217687074829,
+            "width": 651.9999999999999,
+            "height": 479.5748299319728
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
       "z": 0,
       "impScale": 3,
       "rotateX": 0,
@@ -234,16 +307,189 @@
       "index": 8,
       "selected": false,
       "active": false,
-      "markdown": "####1\\. Anzeige von Geodaten (Datenansicht)\n* Diagramme"
+      "markdown": "####1\\. Anzeige von Geodaten (Datenansicht)\nBeschriftungen\n* Beispiel: Namen der Fundorte\n"
     },
     {
-      "components": [],
+      "components": [
+        {
+          "src": "http://i.imgur.com/ymQVPb2.png",
+          "type": "Image",
+          "x": 1,
+          "y": 8,
+          "scale": {
+            "x": 0.8698979591836735,
+            "y": 0.8698979591836735,
+            "width": 1023.0000000000001,
+            "height": 752.4617346938776
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
       "z": 0,
       "impScale": 3,
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
       "index": 9,
+      "selected": false,
+      "active": false,
+      "markdown": ""
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/Ho16cfH.png",
+          "type": "Image",
+          "x": 1,
+          "y": 8,
+          "scale": {
+            "x": 0.8690476190476191,
+            "y": 0.8690476190476191,
+            "width": 1022,
+            "height": 751.7261904761905
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 10,
+      "selected": false,
+      "active": false
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/vnS7Txo.png",
+          "type": "Image",
+          "x": 0,
+          "y": 8,
+          "scale": {
+            "x": 0.8707482993197279,
+            "y": 0.8707482993197279,
+            "width": 1024,
+            "height": 753.1972789115646
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 11,
+      "selected": false,
+      "active": false
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/GlRnTkl.png",
+          "type": "Image",
+          "x": 1,
+          "y": 8,
+          "scale": {
+            "x": 0.8690476190476192,
+            "y": 0.8690476190476192,
+            "width": 1022.0000000000001,
+            "height": 751.7261904761906
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 12,
+      "selected": false,
+      "active": false
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/U4XA0OB.png",
+          "type": "Image",
+          "x": 186,
+          "y": 232,
+          "scale": {
+            "x": 0.5544217687074829,
+            "y": 0.5544217687074829,
+            "width": 651.9999999999999,
+            "height": 479.5748299319728
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 13,
+      "selected": false,
+      "active": false,
+      "markdown": "####1\\. Anzeige von Geodaten (Datenansicht)\nDiagramme\n* Beispiel: Verteilung von Keramik"
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/t6ZFoGA.png",
+          "type": "Image",
+          "x": 1,
+          "y": 8,
+          "scale": {
+            "x": 0.8698979591836735,
+            "y": 0.8698979591836735,
+            "width": 1023.0000000000001,
+            "height": 752.4617346938776
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 14,
+      "selected": false,
+      "active": false
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/Ome4rkW.png",
+          "type": "Image",
+          "x": 1,
+          "y": 8,
+          "scale": {
+            "x": 0.8698979591836735,
+            "y": 0.8698979591836735,
+            "width": 1023.0000000000001,
+            "height": 752.4617346938776
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 15,
       "selected": false,
       "active": false
     },
@@ -254,10 +500,37 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 10,
-      "selected": true,
-      "active": true,
-      "markdown": "###III Präsentation der Ergebnisse\n####2\\. Erstellen und Verwalten von Druckzusammenstellungen\n"
+      "index": 16,
+      "selected": false,
+      "active": false,
+      "markdown": "###III Präsentation der Ergebnisse\n####2\\. Druckzusammenstellungen verwalten\n\n* Zusammenstellung der Daten für den Druck\n* Ein Projekt kann viele Druckzusammenstellungen beinhalten"
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/8MEqAGX.png",
+          "type": "Image",
+          "x": 0,
+          "y": 9,
+          "scale": {
+            "x": 0.8707482993197279,
+            "y": 0.8707482993197279,
+            "width": 1024,
+            "height": 753.1972789115646
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 17,
+      "selected": false,
+      "active": false,
+      "markdown": ""
     },
     {
       "components": [],
@@ -266,23 +539,89 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 11,
+      "index": 18,
       "selected": false,
       "active": false,
-      "markdown": "###III Präsentation der Ergebnisse\n####3\\. Zusammenstellung spezifischer Kartierungen\n"
+      "markdown": "###III Präsentation der Ergebnisse\n####3\\. Zusammenstellung spezifischer Kartierungen\n* Hinzufügen der erstellten Karte\n* Anzeige von Koordinaten\n* Nordpfeil\n* Legende"
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/571wA7f.png",
+          "type": "Image",
+          "x": -2,
+          "y": 6,
+          "scale": {
+            "x": 0.8748936170212765,
+            "y": 0.8748936170212765,
+            "width": 1028,
+            "height": 756.7829787234042
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 19,
+      "selected": false,
+      "active": false
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/vy5qJhO.png",
+          "type": "Image",
+          "x": 0,
+          "y": 7,
+          "scale": {
+            "x": 0.8714893617021277,
+            "y": 0.8714893617021277,
+            "width": 1024,
+            "height": 753.8382978723404
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 20,
+      "selected": true,
+      "active": true
     }
   ],
   "activeSlide": {
-    "components": [],
+    "components": [
+      {
+        "src": "http://i.imgur.com/vy5qJhO.png",
+        "type": "Image",
+        "x": 0,
+        "y": 7,
+        "scale": {
+          "x": 0.8714893617021277,
+          "y": 0.8714893617021277,
+          "width": 1024,
+          "height": 753.8382978723404
+        },
+        "imageType": "PNG",
+        "selected": false
+      }
+    ],
     "z": 0,
     "impScale": 3,
     "rotateX": 0,
     "rotateY": 0,
     "rotateZ": 0,
-    "index": 10,
+    "index": 20,
     "selected": true,
-    "active": true,
-    "markdown": "###III Präsentation der Ergebnisse\n####2\\. Erstellen und Verwalten von Druckzusammenstellungen\n"
+    "active": true
   },
   "fileName": "QGIS_Present",
   "customStylesheet": ".strut-surface .themedArea {\n  font-family: \"Arial\", sans-serif;\n  font-size: 36px;\n  font-weight: 200;\n  letter-spacing: -0.02em;\n  color: #333; }\n\n.strut-surface .themedArea h1,\n.strut-surface .themedArea h2,\n.strut-surface .themedArea h3,\n.strut-surface .themedArea h4,\n.strut-surface .themedArea h5,\n.strut-surface .themedArea h6 {\n  margin: 0 0 20px 0;\n  color: #333;\n  font-family: 'Arial Black', Impact;\n  line-height: 0.9em;\n  letter-spacing: 0.02em;\n  text-transform: none;\n  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }\n\n.strut-surface .themedArea{\n \ttext-align:left;\n  \tpadding:1cm;\n}\n/*classes for h elements are used as follows*/\n/*#qgis-tutorial{\n  \ttext-align: center;\n}*/\n.strut-surface h1{\n  \tfont-size:260%;\n  \ttext-shadow: none;\n}\n\n.strut-surface h2{\n  \tfont-size:200%\n}\n.strut-surface h3{\n  \tfont-size:160%\n}\n.strut-surface h4{\n  \tfont-size:130%\n}",
