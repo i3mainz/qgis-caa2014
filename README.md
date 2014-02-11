@@ -16,5 +16,5 @@ II Analytische Funktionen
     
 III Präsentation der Ergebnisse
   1. Anzeige von Geodaten (Datenansicht)
-  * Erstellen und Verwalten von Layouts (Druckansicht)
+  * Erstellen und Verwalten von Druckzusammenstellungen
   * Zusammenstellung spezifischer Kartierungen  
