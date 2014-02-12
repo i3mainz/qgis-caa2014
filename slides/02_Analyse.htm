@@ -1,0 +1,1223 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+	<meta name="viewport" content="width=device-width">
+	<title>Deck Title</title>
+	<link rel="stylesheet" href="02_Analyse-Dateien/default-reset.css">
+	<link rel="stylesheet" type="text/css" href="02_Analyse-Dateien/main.css">
+	<link rel="stylesheet" href="02_Analyse-Dateien/default.css" id="theme">
+	<link href="02_Analyse-Dateien/web-fonts.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="02_Analyse-Dateien/demo.css">
+	<link rel="stylesheet" type="text/css" href="02_Analyse-Dateien/themes.css">
+	<link href="02_Analyse-Dateien/backgroundClasses.css" rel="stylesheet" type="text/css">
+	<link href="02_Analyse-Dateien/surfaceClasses.css" rel="stylesheet" type="text/css">
+
+	<style type="text/css">
+	.componentContainer {
+	    position: absolute;
+	    line-height: normal;
+	    /*-webkit-transform-origin: 135% 135%;
+	    -moz-transform-origin: 135% 135%;
+	    transform-origin: 135% 135%;*/
+	}
+
+	.transformContainer {
+	    -webkit-transform-origin: 0 0;
+	    -moz-transform-origin: 0 0;
+	    transform-origin: 0 0;
+	}
+
+	.bg {
+	    width: 100%;
+	    height: 100%;
+	}
+
+	#themeChooser {
+		position: absolute;
+		z-index: 1;
+		background-color: #EEE;
+		border-radius: 5px;
+		padding: 10px;
+	}
+
+	#main, body {
+		overflow: hidden;
+	}
+
+	.reveal.themedArea {
+	    display: block;
+	    position: absolute;
+	    top: 0px;
+	    left: 0px;
+	    z-index: 0;
+	    width: 100%;
+	    height: 100%;
+	}
+	</style>
+
+	<script src="02_Analyse-Dateien/analytics.js" async=""></script><script src="02_Analyse-Dateien/bespoke.js"></script>
+	<script src="02_Analyse-Dateien/bespoke-plugins.js"></script>
+	<script src="02_Analyse-Dateien/onready.js"></script>
+	<script src="02_Analyse-Dateien/loadPresentation.js"></script>
+	<script>
+	ready(function() {
+		if (document.getElementById('launched-placeholder'))
+        	loadPresentation();
+		if (!window.presStarted) {
+    		bespoke.horizontal.from('article', {
+    			hash: true,
+    			state: true
+    		});
+		}
+	});
+	</script>
+	<script>
+  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  	ga('create', 'UA-42322531-1', 'strut.io');
+  	ga('send', 'pageview');
+	</script>
+</head>
+<body>
+	<style>
+	.strut-surface .themedArea {
+  font-family: "Arial", sans-serif;
+  font-size: 36px;
+  font-weight: 200;
+  letter-spacing: -0.02em;
+  color: #333; }
+
+.strut-surface .themedArea h1,
+.strut-surface .themedArea h2,
+.strut-surface .themedArea h3,
+.strut-surface .themedArea h4,
+.strut-surface .themedArea h5,
+.strut-surface .themedArea h6 {
+  margin: 0 0 20px 0;
+  color: #333;
+  font-family: 'Arial Black', Impact;
+  line-height: 0.9em;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
+
+.strut-surface .themedArea{
+ 	text-align:left;
+  	padding:1cm;
+}
+/*classes for h elements are used as follows*/
+/*#qgis-tutorial{
+  	text-align: center;
+}*/
+.strut-surface h1{
+  	font-size:260%;
+  	text-shadow: none;
+}
+
+.strut-surface h2{
+  	font-size:200%
+}
+.strut-surface h3{
+  	font-size:160%
+}
+.strut-surface h4{
+  	font-size:130%
+}
+	</style>
+	<style>
+	
+	</style>
+	<style>
+
+
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+</style>
+	<div id="main" class=" strut-surface carousel">
+		<article class="innerBg bespoke-parent strut-slide-0">
+			
+				
+					<section class="slideContainer strut-slide-0 bespoke-slide bespoke-active" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-0">
+						<div class="themedArea">
+              			<h3 id="ii-analytische-funktionen">II Analytische Funktionen</h3>
+<ol>
+<li><p>Überblick der Funktionen</p>
+<ul>
+<li>Built-In: gdal, ftools</li>
+<li>Plugins: <ul>
+<li>Processing (SEXTANTE)</li>
+<li>GRASS</li>
+<li>etc.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Analytisches Arbeiten</p>
+<ul>
+<li>Vektor</li>
+<li>Raster</li>
+</ul>
+</li>
+<li><p>Erweiterte Prozessierungsmöglichkeiten</p>
+<ul>
+<li>Grafische Modellierung</li>
+<li>Python in QGIS</li>
+</ul>
+</li>
+</ol>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-1 bespoke-slide bespoke-inactive bespoke-after bespoke-after-1" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-1">
+						<div class="themedArea">
+              			<h3 id="ii-analytische-funktionen">II Analytische Funktionen</h3>
+<h4 id="1-berblick-der-funktionen">1. Überblick der Funktionen</h4>
+<p>Built-In</p>
+<ul>
+<li>Vektor: ftools<ul>
+<li>Puffer</li>
+<li>Verschneidung</li>
+<li>Zusammenführung</li>
+<li>Konvertierungen</li>
+<li>Einfache Analyse</li>
+<li>etc.</li>
+</ul>
+</li>
+</ul>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-2 bespoke-slide bespoke-inactive bespoke-after bespoke-after-2" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-2">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 0px; left: 4px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 1017px; height: 768.34px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.97, 0.97);
+-moz-transform: scale(0.97, 0.97);
+transform: scale(0.97, 0.97)">
+<img src="02_Analyse-Dateien/wI95yag.png">
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-3 bespoke-slide bespoke-inactive bespoke-after bespoke-after-3" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-3">
+						<div class="themedArea">
+              			<h3 id="ii-analytische-funktionen">II Analytische Funktionen</h3>
+<h4 id="1-berblick-der-funktionen">1. Überblick der Funktionen</h4>
+<p>Built-In</p>
+<ul>
+<li>Raster: gdal<ul>
+<li>Reprojizieren</li>
+<li>Konvertieren</li>
+<li>Kacheln</li>
+<li>Pyramiden</li>
+<li>Einfache Analyse</li>
+<li>etc.</li>
+</ul>
+</li>
+</ul>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-4 bespoke-slide bespoke-inactive bespoke-after bespoke-after-4" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-4">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 0px; left: 4px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 1016px; height: 767.82px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.97, 0.97);
+-moz-transform: scale(0.97, 0.97);
+transform: scale(0.97, 0.97)">
+<img src="02_Analyse-Dateien/zSqDATu.png">
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-5 bespoke-slide bespoke-inactive bespoke-after bespoke-after-5" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-5">
+						<div class="themedArea">
+              			<h3 id="ii-analytische-funktionen">II Analytische Funktionen</h3>
+<h4 id="1-berblick-der-funktionen">1. Überblick der Funktionen</h4>
+<p>Plugins</p>
+<ul>
+<li>GRASS</li>
+<li>Processing (ehem. SEXTANTE)</li>
+<li>Rastergeländeanalyse-Erweiterung</li>
+<li>MMQGIS</li>
+</ul>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-6 bespoke-slide bespoke-inactive bespoke-after bespoke-after-6" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-6">
+						<div class="themedArea">
+              			<h3 id="ii-analytische-funktionen">II Analytische Funktionen</h3>
+<h4 id="1-berblick-der-funktionen">1. Überblick der Funktionen</h4>
+<p>GRASS</p>
+<ul>
+<li>Bislang nur Bearbeitung der Daten in GRASS-Umgebung</li>
+<li>In QGIS 2.0 auch eine komfortable GUI<ul>
+<li>Zugriff über Punkt "Verarbeitung - Werkzeugkiste"</li>
+<li>Dort Funktionsumfang erheblich erweitert</li>
+</ul>
+</li>
+</ul>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-7 bespoke-slide bespoke-inactive bespoke-after bespoke-after-7" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-7">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 1px; left: 5px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 1014px; height: 767.27px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.97, 0.97);
+-moz-transform: scale(0.97, 0.97);
+transform: scale(0.97, 0.97)">
+<img src="02_Analyse-Dateien/MHv2AdS.jpg">
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-8 bespoke-slide bespoke-inactive bespoke-after bespoke-after-8" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-8">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 2px; left: 5px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 1014px; height: 764.61px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.97, 0.97);
+-moz-transform: scale(0.97, 0.97);
+transform: scale(0.97, 0.97)">
+<img src="02_Analyse-Dateien/UY80YEL.jpg">
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-9 bespoke-slide bespoke-inactive bespoke-after bespoke-after-9" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-9">
+						<div class="themedArea">
+              			<h3 id="ii-analytische-funktionen">II Analytische Funktionen</h3>
+<h4 id="1-berblick-der-funktionen">1. Überblick der Funktionen</h4>
+<p>Processing (ehem. SEXTANTE)</p>
+<ul>
+<li>Einbindung verschiedener Bibliotheken<ul>
+<li>GDAL/OGR
+  *identisch mit Raster/Vektormenü</li>
+<li>GRASS</li>
+<li>SAGA</li>
+<li>Orfeo-Toolbox</li>
+<li>Tools for LiDAR data (LAStools)</li>
+<li>GeoServer/PostGIS tools</li>
+</ul>
+</li>
+</ul>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-10 bespoke-slide bespoke-inactive bespoke-after bespoke-after-10" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-10">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 0px; left: 4px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 1016px; height: 767.82px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.97, 0.97);
+-moz-transform: scale(0.97, 0.97);
+transform: scale(0.97, 0.97)">
+<img src="02_Analyse-Dateien/dGeOZAn.png">
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-11 bespoke-slide bespoke-inactive bespoke-after bespoke-after-11" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-11">
+						<div class="themedArea">
+              			<h3 id="ii-analytische-funktionen">II Analytische Funktionen</h3>
+<h4 id="1-berblick-der-funktionen">1. Überblick der Funktionen</h4>
+<p>Rastergeländeanalyse-Erweiterung</p>
+<ul>
+<li>Neigung</li>
+<li>Perspektive</li>
+<li>Schummerung</li>
+<li>Relief</li>
+<li>Rauhigkeitsindex</li>
+</ul>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-12 bespoke-slide bespoke-inactive bespoke-after bespoke-after-12" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-12">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 1px; left: 5px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 1015px; height: 766.09px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.97, 0.97);
+-moz-transform: scale(0.97, 0.97);
+transform: scale(0.97, 0.97)">
+<img src="02_Analyse-Dateien/NWgmcAk.png">
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-13 bespoke-slide bespoke-inactive bespoke-after bespoke-after-13" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-13">
+						<div class="themedArea">
+              			<h3 id="ii-analytische-funktionen">II Analytische Funktionen</h3>
+<h4 id="1-berblick-der-funktionen">1. Überblick der Funktionen</h4>
+<p>MMQGIS</p>
+<ul>
+<li>Animationen</li>
+<li>Joins</li>
+<li>Geocoding</li>
+<li>Import/Export</li>
+</ul>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-14 bespoke-slide bespoke-inactive bespoke-after bespoke-after-14" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-14">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 0px; left: 4px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 1016px; height: 768.05px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.97, 0.97);
+-moz-transform: scale(0.97, 0.97);
+transform: scale(0.97, 0.97)">
+<img src="02_Analyse-Dateien/FemBi82.png">
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-15 bespoke-slide bespoke-inactive bespoke-after bespoke-after-15" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-15">
+						<div class="themedArea">
+              			<h3 id="ii-analytische-funktionen">II Analytische Funktionen</h3>
+<h4 id="2-analytisches-arbeiten">2. Analytisches Arbeiten</h4>
+<p>Vektor  </p>
+<ul>
+<li>Wie weit liegen die Fundorte vom nächsten Fließgewässer entfernt?  </li>
+<li>Wie viele Minen liegen in jedem Herrschaftsgebiet?  </li>
+<li>Welche geologischen Vorkommen treten in welchem Flächenmaß in den Herrschaftsgebieten auf?  </li>
+</ul>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-16 bespoke-slide bespoke-inactive bespoke-after bespoke-after-16" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-16">
+						<div class="themedArea">
+              			<h3 id="ii-analytische-funktionen">II Analytische Funktionen</h3>
+<h4 id="2-analytisches-arbeiten">2. Analytisches Arbeiten</h4>
+<p>Wie weit liegen die Fundorte vom nächsten Gewässer?</p>
+<ul>
+<li>GRASS Algorithmus (v.distance)<br>&#10149; liefert Geometrie
+<br>("distance"-Spalten müssen existieren!)</li>
+<li>Vektorfeldrechner<br>&#10149; Länge der Geometrie berechnen</li>
+</ul>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-17 bespoke-slide bespoke-inactive bespoke-after bespoke-after-17" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-17">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 8px; left: 1px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 1022px; height: 751.73px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.87, 0.87);
+-moz-transform: scale(0.87, 0.87);
+transform: scale(0.87, 0.87)">
+<img src="02_Analyse-Dateien/liIco8g.png">
+</div>
+</div>
+						
+							<div class="componentContainer " style="top: 398px; left: 894px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 104px; height: 104px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.41, 0.41);
+-moz-transform: scale(0.41, 0.41);
+transform: scale(0.41, 0.41)">
+<img src="02_Analyse-Dateien/ABzJOXY.png">
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-18 bespoke-slide bespoke-inactive bespoke-after bespoke-after-18" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-18">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 7px; left: -1px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 1027px; height: 755.4px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.87, 0.87);
+-moz-transform: scale(0.87, 0.87);
+transform: scale(0.87, 0.87)">
+<img src="02_Analyse-Dateien/8UZXMjQ.png">
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-19 bespoke-slide bespoke-inactive bespoke-after bespoke-after-19" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-19">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 8px; left: 0px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 1024px; height: 753.2px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.87, 0.87);
+-moz-transform: scale(0.87, 0.87);
+transform: scale(0.87, 0.87)">
+<img src="02_Analyse-Dateien/dUpnK5b.png">
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-20 bespoke-slide bespoke-inactive bespoke-after bespoke-after-20" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-20">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 7px; left: -1px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 1026px; height: 754.67px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.87, 0.87);
+-moz-transform: scale(0.87, 0.87);
+transform: scale(0.87, 0.87)">
+<img src="02_Analyse-Dateien/sGgUvX8.png">
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-21 bespoke-slide bespoke-inactive bespoke-after bespoke-after-21" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-21">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 7px; left: -1px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 1027px; height: 755.4px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.87, 0.87);
+-moz-transform: scale(0.87, 0.87);
+transform: scale(0.87, 0.87)">
+<img src="02_Analyse-Dateien/YQwXQSX.png">
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-22 bespoke-slide bespoke-inactive bespoke-after bespoke-after-22" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-22">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 5px; left: -3px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 1031px; height: 758.35px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.88, 0.88);
+-moz-transform: scale(0.88, 0.88);
+transform: scale(0.88, 0.88)">
+<img src="02_Analyse-Dateien/udQKl73.png">
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-23 bespoke-slide bespoke-inactive bespoke-after bespoke-after-23" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-23">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 6px; left: -2px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 1029px; height: 756.88px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.88, 0.88);
+-moz-transform: scale(0.88, 0.88);
+transform: scale(0.88, 0.88)">
+<img src="02_Analyse-Dateien/Pc0uOb2.png">
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-24 bespoke-slide bespoke-inactive bespoke-after bespoke-after-24" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-24">
+						<div class="themedArea">
+              			<h3 id="ii-analytische-funktionen">II Analytische Funktionen</h3>
+<h4 id="2-analytisches-arbeiten">2. Analytisches Arbeiten</h4>
+<p>Wie viele Minen liegen in jedem Herrschaftsgebiet?</p>
+<ul>
+<li>Punkte zählen<br>&#10149; Vektor &#10149; Analyse-Werkzeuge &#10149; Punkte in Polygonen</li>
+<li>Join<br>&#10149; Eigenschaften &#10149; Verknüpfungen &#10149; Abspeichern</li>
+</ul>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-25 bespoke-slide bespoke-inactive bespoke-after bespoke-after-25" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-25">
+						<div class="themedArea">
+              			
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-26 bespoke-slide bespoke-inactive bespoke-after bespoke-after-26" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-26">
+						<div class="themedArea">
+              			<h3 id="ii-analytische-funktionen">II Analytische Funktionen</h3>
+<h4 id="2-analytisches-arbeiten">2. Analytisches Arbeiten</h4>
+<p>Welche geologischen Vorkommen treten mit welchem Flächenanteil in den Herrschaftsgebieten auf?</p>
+<p><br></p>
+<p>&#10149; Vektor &#10149; Geoverabeitungswerkzeuge &#10149; Schnittmengen</p>
+<p>  Bei dem sich ergebenden Layer: <br> <br>
+&#10149; Attributtabelle &#10149; Bearbeitungsstatus umschalten <br>&#10149; Feldrechner öffnen
+&#10149; Neues Feld anlegen</p>
+<ul>
+<li>Ausgabefeldname: area</li>
+<li>Ausdruck: $area</li>
+</ul>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-27 bespoke-slide bespoke-inactive bespoke-after bespoke-after-27" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-27">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 19px; left: 7px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 1010px; height: 730.08px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.88, 0.88);
+-moz-transform: scale(0.88, 0.88);
+transform: scale(0.88, 0.88)">
+<img src="02_Analyse-Dateien/0DmIN84.jpg">
+</div>
+</div>
+						
+							<div class="componentContainer " style="top: 398px; left: 42px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<img src="02_Analyse-Dateien/UCj7B2b.jpg">
+</div>
+</div>
+						
+							<div class="componentContainer " style="top: 617px; left: 292px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 104px; height: 104px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.41, 0.41);
+-moz-transform: scale(0.41, 0.41);
+transform: scale(0.41, 0.41)">
+<img src="02_Analyse-Dateien/ABzJOXY.png">
+</div>
+</div>
+						
+							<div class="componentContainer " style="top: 200px; left: 642px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 104px; height: 104px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.41, 0.41);
+-moz-transform: scale(0.41, 0.41);
+transform: scale(0.41, 0.41)">
+<img src="02_Analyse-Dateien/ABzJOXY.png">
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-28 bespoke-slide bespoke-inactive bespoke-after bespoke-after-28" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-28">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 16px; left: 8px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 1009px; height: 735.25px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.88, 0.88);
+-moz-transform: scale(0.88, 0.88);
+transform: scale(0.88, 0.88)">
+<img src="02_Analyse-Dateien/CIYChgx.jpg">
+</div>
+</div>
+						
+							<div class="componentContainer " style="top: 6px; left: 37px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 104px; height: 104px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.41, 0.41);
+-moz-transform: scale(0.41, 0.41);
+transform: scale(0.41, 0.41)">
+<img src="02_Analyse-Dateien/ABzJOXY.png">
+</div>
+</div>
+						
+							<div class="componentContainer " style="top: 400px; left: 303px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 104px; height: 104px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.41, 0.41);
+-moz-transform: scale(0.41, 0.41);
+transform: scale(0.41, 0.41)">
+<img src="02_Analyse-Dateien/ABzJOXY.png">
+</div>
+</div>
+						
+							<div class="componentContainer " style="top: 4px; left: 425px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 104px; height: 104px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.41, 0.41);
+-moz-transform: scale(0.41, 0.41);
+transform: scale(0.41, 0.41)">
+<img src="02_Analyse-Dateien/ABzJOXY.png">
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-29 bespoke-slide bespoke-inactive bespoke-after bespoke-after-29" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-29">
+						<div class="themedArea">
+              			<h3 id="ii-analytische-funktionen">II Analytische Funktionen</h3>
+<h4 id="2-analytisches-arbeiten">2. Analytisches Arbeiten</h4>
+<p>Raster</p>
+<ul>
+<li>Herstellung eines Reliefs zur Visualisierung</li>
+<li>Bestimmung der Meereshöhe aller Fundorte</li>
+</ul>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-30 bespoke-slide bespoke-inactive bespoke-after bespoke-after-30" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-30">
+						<div class="themedArea">
+              			<h3 id="ii-analytische-funktionen">II Analytische Funktionen</h3>
+<h4 id="2-analytisches-arbeiten">2. Analytisches Arbeiten</h4>
+<p>Herstellung eines Reliefs zur Visualisierung</p>
+<ul>
+<li><p>Raster<br>&#10149; Geländeanalyse &#10149; Relief</p>
+</li>
+<li><p>Farben importieren<br>&#10149; \Ausgangsdaten\vorlagen\relief_farben</p>
+</li>
+<li><p>0-Werte mit NULL ersetzen<br>  &#10149; QGIS2: Layer-Eigenschaften (leider noch mit Bug)<br>&#10149; Reprojizieren &#10149; Leerwerte &#10149; neues TIFF speichern</p>
+</li>
+</ul>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-31 bespoke-slide bespoke-inactive bespoke-after bespoke-after-31" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-31">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 9px; left: 1px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 1023px; height: 750.31px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.85, 0.85);
+-moz-transform: scale(0.85, 0.85);
+transform: scale(0.85, 0.85)">
+<img src="02_Analyse-Dateien/31L6XSe.png">
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-32 bespoke-slide bespoke-inactive bespoke-after bespoke-after-32" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-32">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 9px; left: 0px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 1024px; height: 749.97px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.85, 0.85);
+-moz-transform: scale(0.85, 0.85);
+transform: scale(0.85, 0.85)">
+<img src="02_Analyse-Dateien/S78uSgx.png">
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-33 bespoke-slide bespoke-inactive bespoke-after bespoke-after-33" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-33">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 10px; left: 0px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 1023px; height: 748.62px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.85, 0.85);
+-moz-transform: scale(0.85, 0.85);
+transform: scale(0.85, 0.85)">
+<img src="02_Analyse-Dateien/E6e4Rlp.png">
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-34 bespoke-slide bespoke-inactive bespoke-after bespoke-after-34" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-34">
+						<div class="themedArea">
+              			<h3 id="ii-analytische-funktionen">II Analytische Funktionen</h3>
+<h4 id="2-analytisches-arbeiten">2. Analytisches Arbeiten</h4>
+<p>Bestimmung der Meereshöhe aller Fundorte</p>
+<ul>
+<li>Plugin<br>&#10149; Point Sampling Tool<br>&#10149; kann Rasterwerte und Vektorattribute in einen Layer schreiben</li>
+</ul>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-35 bespoke-slide bespoke-inactive bespoke-after bespoke-after-35" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-35">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 8px; left: -1px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 1027px; height: 752.17px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.85, 0.85);
+-moz-transform: scale(0.85, 0.85);
+transform: scale(0.85, 0.85)">
+<img src="02_Analyse-Dateien/ei1WwFd.png">
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-36 bespoke-slide bespoke-inactive bespoke-after bespoke-after-36" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-36">
+						<div class="themedArea">
+              			<h3 id="ii-analytische-funktionen">II Analytische Funktionen</h3>
+<h4 id="3-erweiterte-prozessierungsm-glichkeiten">3. Erweiterte Prozessierungsmöglichkeiten</h4>
+<p>Automatisierte Ausführung mehrerer Prozessierungsschritte</p>
+<ul>
+<li>Grafische Modellierung</li>
+<li>Python in QGIS</li>
+</ul>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-37 bespoke-slide bespoke-inactive bespoke-after bespoke-after-37" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-37">
+						<div class="themedArea">
+              			<h3 id="ii-analytische-funktionen">II Analytische Funktionen</h3>
+<h4 id="3-erweiterte-prozessierungsm-glichkeiten">3. Erweiterte Prozessierungsmöglichkeiten</h4>
+<p>Grafische Modellierung</p>
+<ul>
+<li>Verkettung mehrerer Prozesse zu komplexen Modellen</li>
+<li>Konfiguration über grafische Benutzeroberfläche</li>
+<li>keine Programmierung erforderlich
+<br> <br></li>
+<li>Einmalige Festlegung der Prozessparameter im Modell</li>
+<li>Eingabe/Ausgabe variabel</li>
+</ul>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-38 bespoke-slide bespoke-inactive bespoke-after bespoke-after-38" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-38">
+						<div class="themedArea">
+              			<h3 id="ii-analytische-funktionen">II Analytische Funktionen</h3>
+<h4 id="3-erweiterte-prozessierungsm-glichkeiten">3. Erweiterte Prozessierungsmöglichkeiten</h4>
+<p>Grafische Modellierung - Beispielszenario  </p>
+<ul>
+<li><p>Herrschaftsgebiete um Fundorte bestimmen  </p>
+<ol>
+<li>Einzugsgebiete berechnen (Voronoi-Methode)</li>
+<li>Ergebnis mit Küstenlinie verschneiden</li>
+</ol>
+</li>
+</ul>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-39 bespoke-slide bespoke-inactive bespoke-after bespoke-after-39" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-39">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 10px; left: 1px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 1023px; height: 749.24px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.85, 0.85);
+-moz-transform: scale(0.85, 0.85);
+transform: scale(0.85, 0.85)">
+<img src="02_Analyse-Dateien/CqbTymR.png">
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-40 bespoke-slide bespoke-inactive bespoke-after bespoke-after-40" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-40">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 11px; left: 0px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 1025px; height: 746.38px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.85, 0.85);
+-moz-transform: scale(0.85, 0.85);
+transform: scale(0.85, 0.85)">
+<img src="02_Analyse-Dateien/4363MhI.png">
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-41 bespoke-slide bespoke-inactive bespoke-after bespoke-after-41" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-41">
+						<div class="themedArea">
+              			<h3 id="ii-analytische-funktionen">II Analytische Funktionen</h3>
+<h4 id="3-erweiterte-prozessierungsm-glichkeiten">3. Erweiterte Prozessierungsmöglichkeiten</h4>
+<p>Python in QGIS</p>
+<ul>
+<li>Konsole<ul>
+<li>Direkte Ausführung</li>
+</ul>
+</li>
+<li>Skripte<ul>
+<li>Verkettung von Funktionen</li>
+</ul>
+</li>
+<li>Entwicklung von Plugins<ul>
+<li>Inhalt eines eigenen Tutorials</li>
+</ul>
+</li>
+</ul>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-42 bespoke-slide bespoke-inactive bespoke-after bespoke-after-42" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-42">
+						<div class="themedArea">
+              			<h3 id="ii-analytische-funktionen">II Analytische Funktionen</h3>
+<h4 id="3-erweiterte-prozessierungsm-glichkeiten">3. Erweiterte Prozessierungsmöglichkeiten</h4>
+<p>Python in QGIS</p>
+<ul>
+<li>weiterführende Links<ul>
+<li>PyQGIS Cookbook: <a href="http://www.qgis.org/en/docs/pyqgis_developer_cookbook/intro.html">http://www.qgis.org/en/docs/pyqgis_developer_cookbook/intro.html</a></li>
+<li>Plugins: <a href="http://www.qgis.org/en/docs/pyqgis_developer_cookbook/plugins.html#developing-plugins">http://www.qgis.org/en/docs/pyqgis_developer_cookbook/plugins.html#developing-plugins</a></li>
+<li>API: <a href="http://qgis.org/api/">http://qgis.org/api/</a> </li>
+</ul>
+</li>
+</ul>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-43 bespoke-slide bespoke-inactive bespoke-after bespoke-after-43" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-43">
+						<div class="themedArea">
+              			<h3 id="ii-analytische-funktionen">II Analytische Funktionen</h3>
+<h4 id="3-erweiterte-prozessierungsm-glichkeiten">3. Erweiterte Prozessierungsmöglichkeiten</h4>
+<p>Python-Skripte</p>
+<ul>
+<li>Skriptbasierte Verkettung mehrerer Prozesse</li>
+<li>Modelle können als Skripte gespeichert werden</li>
+<li>Aufruf und Bearbeitung auch über Werkzeugkiste</li>
+</ul>
+
+              			</div>
+						
+					</section>
+				
+			
+		</article>
+	</div>
+
+</body></html>
