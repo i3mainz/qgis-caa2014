@@ -10,7 +10,9 @@
       "index": 0,
       "selected": false,
       "active": false,
-      "markdown": "###III Präsentation der Ergebnisse\n1. Anzeige von Geodaten (Datenansicht)  \n <br>\n2. Erstellen und Verwalten von Druckzusammenstellungen  \n<br>\n3. Zusammenstellung spezifischer Kartierungen\n"
+      "markdown": "###III Präsentation der Ergebnisse\n1. Anzeige von Geodaten (Datenansicht)\n\t* Stile\n\t* Beschriftungen\n\t* Diagramme  \n <br>  \n2. Erstellen und Verwalten von Druckzusammenstellungen  \n<br>\n3. Zusammenstellung spezifischer Kartierungen\n\t* Seite einrichten\n\t* Karte hinzufügen und einrichten\n\t* Hinzufügen von Maßstab, Legende, etc.",
+      "x": 180,
+      "y": 180
     },
     {
       "components": [],
@@ -22,20 +24,22 @@
       "index": 1,
       "selected": false,
       "active": false,
-      "markdown": "###III Präsentation der Ergebnisse\n####1\\. Anzeige von Geodaten (Datenansicht)\n * Manuelle Stilanpassung Voronoi-Polygone\n * Attributabhängige Visualisierung\n * Beschriftungen\n * Diagramme\n * ..."
+      "markdown": "###III Präsentation der Ergebnisse\n####1\\. Anzeige von Geodaten (Datenansicht)\n * Manuelle Stilanpassung\n * Attributabhängige Visualisierung\n * Beschriftungen\n * Diagramme\n * ...",
+      "x": 460,
+      "y": 180
     },
     {
       "components": [
         {
           "src": "http://i.imgur.com/lQApM5H.png",
           "type": "Image",
-          "x": 216,
-          "y": 274,
+          "x": 252,
+          "y": 334,
           "scale": {
-            "x": 0.504251700680272,
-            "y": 0.504251700680272,
-            "width": 592.9999999999999,
-            "height": 436.1777210884353
+            "x": 0.4430272108843537,
+            "y": 0.4430272108843537,
+            "width": 521,
+            "height": 383.21853741496597
           },
           "imageType": "PNG",
           "selected": false
@@ -49,7 +53,9 @@
       "index": 2,
       "selected": false,
       "active": false,
-      "markdown": "####1\\. Anzeige von Geodaten (Datenansicht)\nManuelle Stilanpassung  \n* Beispiel Voronoi Polygone  \n&#10149; zur Darstellung der Grenzen ohne Füllung\n \n"
+      "markdown": "###III Präsentation der Ergebnisse\n####1\\. Anzeige von Geodaten (Datenansicht)\nManuelle Stilanpassung  \n* Beispiel: Voronoi Polygone  \n&#10149; zur Darstellung der Grenzen ohne Füllung\n \n",
+      "x": 742,
+      "y": 181
     },
     {
       "components": [
@@ -132,7 +138,9 @@
       "index": 3,
       "selected": false,
       "active": false,
-      "markdown": ""
+      "markdown": "",
+      "x": 1020,
+      "y": 180
     },
     {
       "components": [
@@ -158,20 +166,22 @@
       "rotateZ": 0,
       "index": 4,
       "selected": false,
-      "active": false
+      "active": false,
+      "x": 1300,
+      "y": 180
     },
     {
       "components": [
         {
           "src": "http://i.imgur.com/3BloEqB.png",
           "type": "Image",
-          "x": 194,
-          "y": 241,
+          "x": 246,
+          "y": 310,
           "scale": {
-            "x": 0.5408163265306123,
-            "y": 0.5408163265306123,
-            "width": 636,
-            "height": 467.80612244897964
+            "x": 0.45238095238095244,
+            "y": 0.45238095238095244,
+            "width": 532.0000000000001,
+            "height": 391.30952380952385
           },
           "imageType": "PNG",
           "selected": false
@@ -185,7 +195,9 @@
       "index": 5,
       "selected": false,
       "active": false,
-      "markdown": "####1\\. Anzeige von Geodaten (Datenansicht)\nAttributabhängige Visualisierung\n* Beispiel: Anzeige der Gewässer nach Durchflussvolumen"
+      "markdown": "###III Präsentation der Ergebnisse\n####1\\. Anzeige von Geodaten (Datenansicht)\nAttributabhängige Visualisierung\n* Beispiel: Anzeige der Gewässer nach Durchflussvolumen",
+      "x": 1580,
+      "y": 180
     },
     {
       "components": [
@@ -254,7 +266,9 @@
       "index": 6,
       "selected": false,
       "active": false,
-      "markdown": ""
+      "markdown": "",
+      "x": 1860,
+      "y": 460
     },
     {
       "components": [
@@ -280,20 +294,22 @@
       "rotateZ": 0,
       "index": 7,
       "selected": false,
-      "active": false
+      "active": false,
+      "x": 2140,
+      "y": 460
     },
     {
       "components": [
         {
           "src": "http://i.imgur.com/U4XA0OB.png",
           "type": "Image",
-          "x": 186,
-          "y": 232,
+          "x": 228,
+          "y": 295,
           "scale": {
-            "x": 0.5544217687074829,
-            "y": 0.5544217687074829,
-            "width": 651.9999999999999,
-            "height": 479.5748299319728
+            "x": 0.48384353741496594,
+            "y": 0.48384353741496594,
+            "width": 569,
+            "height": 418.52465986394554
           },
           "imageType": "PNG",
           "selected": false
@@ -307,7 +323,9 @@
       "index": 8,
       "selected": false,
       "active": false,
-      "markdown": "####1\\. Anzeige von Geodaten (Datenansicht)\nBeschriftungen\n* Beispiel: Namen der Fundorte\n"
+      "markdown": "###III Präsentation der Ergebnisse\n####1\\. Anzeige von Geodaten (Datenansicht)\nBeschriftungen\n* Beispiel: Namen der Fundorte\n",
+      "x": 2420,
+      "y": 460
     },
     {
       "components": [
@@ -334,7 +352,9 @@
       "index": 9,
       "selected": false,
       "active": false,
-      "markdown": ""
+      "markdown": "",
+      "x": 2700,
+      "y": 460
     },
     {
       "components": [
@@ -360,7 +380,9 @@
       "rotateZ": 0,
       "index": 10,
       "selected": false,
-      "active": false
+      "active": false,
+      "x": 2980,
+      "y": 460
     },
     {
       "components": [
@@ -386,7 +408,9 @@
       "rotateZ": 0,
       "index": 11,
       "selected": false,
-      "active": false
+      "active": false,
+      "x": 3260,
+      "y": 460
     },
     {
       "components": [
@@ -412,20 +436,22 @@
       "rotateZ": 0,
       "index": 12,
       "selected": false,
-      "active": false
+      "active": false,
+      "x": 3540,
+      "y": 740
     },
     {
       "components": [
         {
           "src": "http://i.imgur.com/U4XA0OB.png",
           "type": "Image",
-          "x": 186,
-          "y": 232,
+          "x": 228,
+          "y": 295,
           "scale": {
-            "x": 0.5544217687074829,
-            "y": 0.5544217687074829,
-            "width": 651.9999999999999,
-            "height": 479.5748299319728
+            "x": 0.48384353741496594,
+            "y": 0.48384353741496594,
+            "width": 569,
+            "height": 418.52465986394554
           },
           "imageType": "PNG",
           "selected": false
@@ -439,7 +465,9 @@
       "index": 13,
       "selected": false,
       "active": false,
-      "markdown": "####1\\. Anzeige von Geodaten (Datenansicht)\nDiagramme\n* Beispiel: Verteilung von Keramik"
+      "markdown": "###III Präsentation der Ergebnisse\n####1\\. Anzeige von Geodaten (Datenansicht)\nDiagramme\n* Beispiel: Verteilung von Keramik",
+      "x": 3820,
+      "y": 740
     },
     {
       "components": [
@@ -465,7 +493,10 @@
       "rotateZ": 0,
       "index": 14,
       "selected": false,
-      "active": false
+      "active": false,
+      "x": 4100,
+      "y": 740,
+      "markdown": ""
     },
     {
       "components": [
@@ -491,7 +522,10 @@
       "rotateZ": 0,
       "index": 15,
       "selected": false,
-      "active": false
+      "active": false,
+      "x": 4380,
+      "y": 740,
+      "markdown": ""
     },
     {
       "components": [],
@@ -503,7 +537,21 @@
       "index": 16,
       "selected": false,
       "active": false,
-      "markdown": "###III Präsentation der Ergebnisse\n####2\\. Druckzusammenstellungen verwalten\n\n* Zusammenstellung der Daten für den Druck\n* Ein Projekt kann viele Druckzusammenstellungen beinhalten"
+      "markdown": "###III Präsentation der Ergebnisse\n####1\\. Anzeige von Geodaten (Datenansicht)\nDiagramme  \n&#10149; Beschriftung mittels *Diagram Legend Plugin* möglich\nhttp://plugins.qgis.org/plugins/DiagLeg/\n"
+    },
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 17,
+      "selected": false,
+      "active": false,
+      "markdown": "###III Präsentation der Ergebnisse\n####2\\. Druckzusammenstellungen verwalten\n\n* Zusammenstellung der Daten für den Druck\n* Innerhalb eines Projektes können verschiedene Druckzusammenstellungen erstellt werden\n* Vorlagen können auch projektübergreifend verwendet werden",
+      "x": 4660,
+      "y": 740
     },
     {
       "components": [
@@ -527,10 +575,12 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 17,
+      "index": 18,
       "selected": false,
       "active": false,
-      "markdown": ""
+      "markdown": "",
+      "x": 4940,
+      "y": 740
     },
     {
       "components": [],
@@ -539,10 +589,68 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 18,
+      "index": 19,
       "selected": false,
       "active": false,
-      "markdown": "###III Präsentation der Ergebnisse\n####3\\. Zusammenstellung spezifischer Kartierungen\n* Hinzufügen der erstellten Karte\n* Anzeige von Koordinaten\n* Nordpfeil\n* Legende"
+      "markdown": "###III Präsentation der Ergebnisse\n####3\\. Zusammenstellung spezifischer Kartierungen\n* Seite einrichten\n* Karte hinzufügen und einrichten\n\t* Koordinaten etc.\n* Hinzufügen weiterer Elemente\n\t* Maßstab\n\t* Legende\n    * Nordpfeil\n* weitere Möglichkeiten",
+      "x": 5220,
+      "y": 1020
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/MH5rSI1.png",
+          "type": "Image",
+          "x": -3,
+          "y": 5,
+          "scale": {
+            "x": 0.876595744680851,
+            "y": 0.876595744680851,
+            "width": 1030,
+            "height": 758.2553191489361
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 651,
+          "y": 152,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font color=\"#ff0000\"><font color=\"#cf0000\">Seite einrichten</font><br></font>",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/IvcJPnU.png",
+          "type": "Image",
+          "x": 749.1735993790238,
+          "y": 206.82640062097622,
+          "scale": {
+            "x": 0.37109375,
+            "y": 0.37109375,
+            "width": 95,
+            "height": 95
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "rotate": 0,
+          "skewX": 0,
+          "skewY": 0
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 20,
+      "selected": false,
+      "active": false
     },
     {
       "components": [
@@ -566,9 +674,11 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 19,
+      "index": 21,
       "selected": false,
-      "active": false
+      "active": false,
+      "x": 5500,
+      "y": 1020
     },
     {
       "components": [
@@ -585,6 +695,33 @@
           },
           "imageType": "PNG",
           "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/IvcJPnU.png",
+          "type": "Image",
+          "x": 862,
+          "y": 207,
+          "scale": {
+            "x": 0.37109375,
+            "y": 0.37109375,
+            "width": 95,
+            "height": 95
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 625,
+          "y": 150,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font color=\"#ff0000\"><font color=\"#cf0000\">Karte einrichten</font><br></font>",
+          "selected": false
         }
       ],
       "z": 0,
@@ -592,36 +729,313 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 20,
+      "index": 22,
+      "selected": false,
+      "active": false,
+      "x": 5780,
+      "y": 1020,
+      "markdown": ""
+    },
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 23,
+      "selected": false,
+      "active": false,
+      "markdown": "###III Präsentation der Ergebnisse\n####3\\. Zusammenstellung spezifischer Kartierungen\nKarte einrichten (Elementeigenschaften)\n* Maßstab\n* Ausdehnung\n* Koordinatengitter\n\t* Intervall in Meter\n    * Koordinaten (vertikal an den Seiten)\n* Position\n\t* auch über *Zusammenstellung* &#10149; *Raster* möglich\n* Hintergrund\n    \n"
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/FlvsIrw.png",
+          "type": "Image",
+          "x": -5,
+          "y": 17,
+          "scale": {
+            "x": 0.8807495741056217,
+            "y": 0.8807495741056217,
+            "width": 1034,
+            "height": 735.4258943781941
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 24,
+      "selected": false,
+      "active": false,
+      "markdown": ""
+    },
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 25,
+      "selected": false,
+      "active": false,
+      "markdown": "###III Präsentation der Ergebnisse\n####3\\. Zusammenstellung spezifischer Kartierungen\nHinzufügen weiterer Elemente\n* Maßstab\n* Legende\n* Nordpfeil\n"
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/jyPrLX4.png",
+          "type": "Image",
+          "x": -1,
+          "y": 18,
+          "scale": {
+            "x": 0.8747870528109029,
+            "y": 0.8747870528109029,
+            "width": 1027,
+            "height": 730.4471890971039
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/IvcJPnU.png",
+          "type": "Image",
+          "x": 539,
+          "y": 537,
+          "scale": {
+            "x": 0.37109375,
+            "y": 0.37109375,
+            "width": 95,
+            "height": 95
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "rotate": 1.56
+        },
+        {
+          "src": "http://i.imgur.com/IvcJPnU.png",
+          "type": "Image",
+          "x": 679,
+          "y": 31,
+          "scale": {
+            "x": 0.37109375,
+            "y": 0.37109375,
+            "width": 95,
+            "height": 95
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "rotate": -0.01
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 26,
+      "selected": false,
+      "active": false
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/8HCOhcf.png",
+          "type": "Image",
+          "x": 1,
+          "y": 6,
+          "scale": {
+            "x": 0.8713798977853492,
+            "y": 0.8713798977853492,
+            "width": 1023,
+            "height": 756.3577512776831
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/IvcJPnU.png",
+          "type": "Image",
+          "x": 539,
+          "y": 537,
+          "scale": {
+            "x": 0.37109375,
+            "y": 0.37109375,
+            "width": 95,
+            "height": 95
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "rotate": 1.56
+        },
+        {
+          "src": "http://i.imgur.com/IvcJPnU.png",
+          "type": "Image",
+          "x": 648,
+          "y": 17,
+          "scale": {
+            "x": 0.37109375,
+            "y": 0.37109375,
+            "width": 95,
+            "height": 95
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "rotate": -0.01
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 27,
+      "selected": false,
+      "active": false
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/NmmAEjN.png",
+          "type": "Image",
+          "x": -1,
+          "y": 5,
+          "scale": {
+            "x": 0.8739352640545145,
+            "y": 0.8739352640545145,
+            "width": 1026,
+            "height": 758.5758091993185
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/IvcJPnU.png",
+          "type": "Image",
+          "x": 460,
+          "y": 508,
+          "scale": {
+            "x": 0.37109375,
+            "y": 0.37109375,
+            "width": 95,
+            "height": 95
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "rotate": -0.01
+        },
+        {
+          "src": "http://i.imgur.com/IvcJPnU.png",
+          "type": "Image",
+          "x": 618,
+          "y": 16,
+          "scale": {
+            "x": 0.37109375,
+            "y": 0.37109375,
+            "width": 95,
+            "height": 95
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "rotate": -0.01
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 28,
+      "selected": false,
+      "active": false,
+      "markdown": ""
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/GUtLhvw.png",
+          "type": "Image",
+          "x": 1,
+          "y": 6,
+          "scale": {
+            "x": 0.8713798977853492,
+            "y": 0.8713798977853492,
+            "width": 1023,
+            "height": 756.3577512776831
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/IvcJPnU.png",
+          "type": "Image",
+          "x": 589,
+          "y": 16,
+          "scale": {
+            "x": 0.37109375,
+            "y": 0.37109375,
+            "width": 95,
+            "height": 95
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "rotate": -0.01
+        },
+        {
+          "src": "http://i.imgur.com/IvcJPnU.png",
+          "type": "Image",
+          "x": 87,
+          "y": 139,
+          "scale": {
+            "x": 0.37109375,
+            "y": 0.37109375,
+            "width": 95,
+            "height": 95
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "rotate": -0.01
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 29,
+      "selected": false,
+      "active": false
+    },
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 30,
       "selected": true,
-      "active": true
+      "active": true,
+      "markdown": "###III Präsentation der Ergebnisse\n####3\\. Zusammenstellung spezifischer Kartierungen\nweitere Möglichkeiten\n* Vorlagen speichern/laden\n\t* können projektübergreifend verwendet werden\n* Hinzufügen von\n\t* Formen\n    * Bilder\n\t* HTML Frames\n* Speichern/exportieren als\n\t* Rasterbild (png, jpeg, tiff)\n    * PDF\n    * Scalable Vector Graphics (SVG)"
     }
   ],
   "activeSlide": {
-    "components": [
-      {
-        "src": "http://i.imgur.com/vy5qJhO.png",
-        "type": "Image",
-        "x": 0,
-        "y": 7,
-        "scale": {
-          "x": 0.8714893617021277,
-          "y": 0.8714893617021277,
-          "width": 1024,
-          "height": 753.8382978723404
-        },
-        "imageType": "PNG",
-        "selected": false
-      }
-    ],
+    "components": [],
     "z": 0,
     "impScale": 3,
     "rotateX": 0,
     "rotateY": 0,
     "rotateZ": 0,
-    "index": 20,
+    "index": 30,
     "selected": true,
-    "active": true
+    "active": true,
+    "markdown": "###III Präsentation der Ergebnisse\n####3\\. Zusammenstellung spezifischer Kartierungen\nweitere Möglichkeiten\n* Vorlagen speichern/laden\n\t* können projektübergreifend verwendet werden\n* Hinzufügen von\n\t* Formen\n    * Bilder\n\t* HTML Frames\n* Speichern/exportieren als\n\t* Rasterbild (png, jpeg, tiff)\n    * PDF\n    * Scalable Vector Graphics (SVG)"
   },
   "fileName": "QGIS_Present",
   "customStylesheet": ".strut-surface .themedArea {\n  font-family: \"Arial\", sans-serif;\n  font-size: 36px;\n  font-weight: 200;\n  letter-spacing: -0.02em;\n  color: #333; }\n\n.strut-surface .themedArea h1,\n.strut-surface .themedArea h2,\n.strut-surface .themedArea h3,\n.strut-surface .themedArea h4,\n.strut-surface .themedArea h5,\n.strut-surface .themedArea h6 {\n  margin: 0 0 20px 0;\n  color: #333;\n  font-family: 'Arial Black', Impact;\n  line-height: 0.9em;\n  letter-spacing: 0.02em;\n  text-transform: none;\n  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }\n\n.strut-surface .themedArea{\n \ttext-align:left;\n  \tpadding:1cm;\n}\n/*classes for h elements are used as follows*/\n/*#qgis-tutorial{\n  \ttext-align: center;\n}*/\n.strut-surface h1{\n  \tfont-size:260%;\n  \ttext-shadow: none;\n}\n\n.strut-surface h2{\n  \tfont-size:200%\n}\n.strut-surface h3{\n  \tfont-size:160%\n}\n.strut-surface h4{\n  \tfont-size:130%\n}",
@@ -629,5 +1043,7 @@
   "cannedTransition": "carousel",
   "customBackgrounds": {
     "bgs": []
-  }
+  },
+  "overviewX": 2980,
+  "overviewY": 600
 }
