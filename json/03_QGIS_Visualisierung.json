@@ -10,7 +10,7 @@
       "index": 0,
       "selected": true,
       "active": true,
-      "markdown": "###III Präsentation der Ergebnisse\n1. Anzeige von Geodaten (Datenansicht)\n\t* Stile\n\t* Beschriftungen\n\t* Diagramme  \n <br>  \n2. Erstellen und Verwalten von Druckzusammenstellungen  \n<br>\n3. Zusammenstellung spezifischer Kartierungen\n\t* Seite einrichten\n\t* Karte hinzufügen und einrichten\n\t* Hinzufügen von Maßstab, Legende, etc.",
+      "markdown": "###III Präsentation von Daten\n1. Anzeige von Geodaten (Datenansicht)\n\t* Stile\n\t* Beschriftungen\n\t* Diagramme  \n <br>  \n2. Erstellen und Verwalten von Druckzusammenstellungen  \n<br>\n3. Zusammenstellung spezifischer Kartierungen\n\t* Seite einrichten\n\t* Karte hinzufügen und einrichten\n\t* Hinzufügen von Maßstab, Legende, etc.",
       "x": 180,
       "y": 180
     },
@@ -1120,7 +1120,7 @@
     "index": 0,
     "selected": true,
     "active": true,
-    "markdown": "###III Präsentation der Ergebnisse\n1. Anzeige von Geodaten (Datenansicht)\n\t* Stile\n\t* Beschriftungen\n\t* Diagramme  \n <br>  \n2. Erstellen und Verwalten von Druckzusammenstellungen  \n<br>\n3. Zusammenstellung spezifischer Kartierungen\n\t* Seite einrichten\n\t* Karte hinzufügen und einrichten\n\t* Hinzufügen von Maßstab, Legende, etc.",
+    "markdown": "###III Präsentation von Daten\n1. Anzeige von Geodaten (Datenansicht)\n\t* Stile\n\t* Beschriftungen\n\t* Diagramme  \n <br>  \n2. Erstellen und Verwalten von Druckzusammenstellungen  \n<br>\n3. Zusammenstellung spezifischer Kartierungen\n\t* Seite einrichten\n\t* Karte hinzufügen und einrichten\n\t* Hinzufügen von Maßstab, Legende, etc.",
     "x": 180,
     "y": 180
   },
