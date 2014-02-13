@@ -8,8 +8,8 @@
       "rotateY": 0,
       "rotateZ": 0,
       "index": 0,
-      "selected": false,
-      "active": false,
+      "selected": true,
+      "active": true,
       "markdown": "###III Präsentation der Ergebnisse\n1. Anzeige von Geodaten (Datenansicht)\n\t* Stile\n\t* Beschriftungen\n\t* Diagramme  \n <br>  \n2. Erstellen und Verwalten von Druckzusammenstellungen  \n<br>\n3. Zusammenstellung spezifischer Kartierungen\n\t* Seite einrichten\n\t* Karte hinzufügen und einrichten\n\t* Hinzufügen von Maßstab, Legende, etc.",
       "x": 180,
       "y": 180
@@ -24,7 +24,7 @@
       "index": 1,
       "selected": false,
       "active": false,
-      "markdown": "###III Präsentation der Ergebnisse\n####1\\. Anzeige von Geodaten (Datenansicht)\n * Manuelle Stilanpassung\n * Attributabhängige Visualisierung\n * Beschriftungen\n * Diagramme\n * ...",
+      "markdown": "###III Präsentation von Daten\n####1\\. Anzeige von Geodaten (Datenansicht)\n * Manuelle Stilanpassung\n * Attributabhängige Visualisierung\n * Beschriftungen\n * Diagramme\n * ...",
       "x": 460,
       "y": 180
     },
@@ -53,7 +53,7 @@
       "index": 2,
       "selected": false,
       "active": false,
-      "markdown": "###III Präsentation der Ergebnisse\n####1\\. Anzeige von Geodaten (Datenansicht)\nManuelle Stilanpassung  \n* Beispiel: Voronoi Polygone  \n&#10149; zur Darstellung der Grenzen ohne Füllung\n \n",
+      "markdown": "###III Präsentation von Daten\n####1\\. Anzeige von Geodaten (Datenansicht)\nManuelle Stilanpassung  \n* Beispiel: Voronoi Polygone  \n&#10149; zur Darstellung der Grenzen ohne Füllung\n \n",
       "x": 742,
       "y": 181
     },
@@ -195,7 +195,7 @@
       "index": 5,
       "selected": false,
       "active": false,
-      "markdown": "###III Präsentation der Ergebnisse\n####1\\. Anzeige von Geodaten (Datenansicht)\nAttributabhängige Visualisierung\n* Beispiel: Anzeige der Gewässer nach Durchflussvolumen",
+      "markdown": "###III Präsentation von Daten\n####1\\. Anzeige von Geodaten (Datenansicht)\nAttributabhängige Visualisierung\n* Beispiel: Anzeige der Gewässer nach Durchflussvolumen",
       "x": 1580,
       "y": 180
     },
@@ -323,7 +323,7 @@
       "index": 8,
       "selected": false,
       "active": false,
-      "markdown": "###III Präsentation der Ergebnisse\n####1\\. Anzeige von Geodaten (Datenansicht)\nBeschriftungen\n* Beispiel: Namen der Fundorte\n",
+      "markdown": "###III Präsentation von Daten\n####1\\. Anzeige von Geodaten (Datenansicht)\nBeschriftungen\n* Beispiel: Namen der Fundorte\n",
       "x": 2420,
       "y": 460
     },
@@ -465,7 +465,7 @@
       "index": 13,
       "selected": false,
       "active": false,
-      "markdown": "###III Präsentation der Ergebnisse\n####1\\. Anzeige von Geodaten (Datenansicht)\nDiagramme\n* Beispiel: Verteilung von Keramik",
+      "markdown": "###III Präsentation von Daten\n####1\\. Anzeige von Geodaten (Datenansicht)\nDiagramme\n* Beispiel: Verteilung von Keramik",
       "x": 3820,
       "y": 740
     },
@@ -537,7 +537,7 @@
       "index": 16,
       "selected": false,
       "active": false,
-      "markdown": "###III Präsentation der Ergebnisse\n####1\\. Anzeige von Geodaten (Datenansicht)\nDiagramme  \n&#10149; Beschriftung mittels *Diagram Legend Plugin* möglich\nhttp://plugins.qgis.org/plugins/DiagLeg/\n"
+      "markdown": "###III Präsentation von Daten\n####1\\. Anzeige von Geodaten (Datenansicht)\nDiagramme  \n&#10149; Beschriftung mittels *Diagram Legend Plugin* möglich\nhttp://plugins.qgis.org/plugins/DiagLeg/\n"
     },
     {
       "components": [],
@@ -549,7 +549,7 @@
       "index": 17,
       "selected": false,
       "active": false,
-      "markdown": "###III Präsentation der Ergebnisse\n####2\\. Druckzusammenstellungen verwalten\n\n* Zusammenstellung der Daten für den Druck\n* Innerhalb eines Projektes können verschiedene Druckzusammenstellungen erstellt werden\n* Vorlagen können auch projektübergreifend verwendet werden",
+      "markdown": "###III Präsentation von Daten\n####2\\. Druckzusammenstellungen verwalten\n\n* Zusammenstellung der Daten für den Druck\n* Innerhalb eines Projektes können verschiedene Druckzusammenstellungen erstellt werden\n* Vorlagen können auch projektübergreifend verwendet werden",
       "x": 4660,
       "y": 740
     },
@@ -592,7 +592,7 @@
       "index": 19,
       "selected": false,
       "active": false,
-      "markdown": "###III Präsentation der Ergebnisse\n####3\\. Zusammenstellung spezifischer Kartierungen\n* Seite einrichten\n* Karte hinzufügen und einrichten\n\t* Koordinaten etc.\n* Hinzufügen weiterer Elemente\n\t* Maßstab\n\t* Legende\n    * Nordpfeil\n* weitere Möglichkeiten",
+      "markdown": "###III Präsentation von Daten\n####3\\. Zusammenstellung spezifischer Kartierungen\n* Seite einrichten\n* Karte hinzufügen und einrichten\n\t* Koordinaten etc.\n* Hinzufügen weiterer Elemente\n\t* Maßstab\n\t* Legende\n    * Nordpfeil\n* weitere Möglichkeiten",
       "x": 5220,
       "y": 1020
     },
@@ -831,7 +831,7 @@
       "index": 24,
       "selected": false,
       "active": false,
-      "markdown": "###III Präsentation der Ergebnisse\n####3\\. Zusammenstellung spezifischer Kartierungen\nKarte einrichten (*Elementeigenschaften*)\n* Größe des Kartenrahmens\n* Maßstab\n* Ausdehnung\n* Koordinatengitter\n\t* Intervall in Meter\n    * Koordinaten (vertikal an den Seiten)\n* Position\n\t* auch über *Zusammenstellung* &#10149; *Raster* möglich\n* Hintergrund\n    \n"
+      "markdown": "###III Präsentation von Daten\n####3\\. Zusammenstellung spezifischer Kartierungen\nKarte einrichten (*Elementeigenschaften*)\n* Größe des Kartenrahmens\n* Maßstab\n* Ausdehnung\n* Koordinatengitter\n\t* Intervall in Meter\n    * Koordinaten (vertikal an den Seiten)\n* Position\n\t* auch über *Zusammenstellung* &#10149; *Raster* möglich\n* Hintergrund\n    \n"
     },
     {
       "components": [
@@ -870,7 +870,7 @@
       "index": 26,
       "selected": false,
       "active": false,
-      "markdown": "###III Präsentation der Ergebnisse\n####3\\. Zusammenstellung spezifischer Kartierungen\nHinzufügen weiterer Elemente\n* Maßstab\n* Legende\n* Nordpfeil\n"
+      "markdown": "###III Präsentation von Daten\n####3\\. Zusammenstellung spezifischer Kartierungen\nHinzufügen weiterer Elemente\n* Maßstab\n* Legende\n* Nordpfeil\n"
     },
     {
       "components": [
@@ -1105,9 +1105,9 @@
       "rotateY": 0,
       "rotateZ": 0,
       "index": 31,
-      "selected": true,
-      "active": true,
-      "markdown": "###III Präsentation der Ergebnisse\n####3\\. Zusammenstellung spezifischer Kartierungen\nweitere Möglichkeiten\n* Vorlagen speichern/laden\n\t* können projektübergreifend verwendet werden\n* Hinzufügen von\n\t* Formen\n    * Bildern\n\t* HTML Frames\n* Speichern/exportieren als\n\t* Rasterbild (png, jpeg, tiff)\n    * PDF\n    * Scalable Vector Graphics (SVG)"
+      "selected": false,
+      "active": false,
+      "markdown": "###III Präsentation von Daten\n####3\\. Zusammenstellung spezifischer Kartierungen\nweitere Möglichkeiten\n* Vorlagen speichern/laden\n\t* können projektübergreifend verwendet werden\n* Hinzufügen von\n\t* Formen\n    * Bildern\n\t* HTML Frames\n* Speichern/exportieren als\n\t* Rasterbild (png, jpeg, tiff)\n    * PDF\n    * Scalable Vector Graphics (SVG)"
     }
   ],
   "activeSlide": {
@@ -1117,10 +1117,12 @@
     "rotateX": 0,
     "rotateY": 0,
     "rotateZ": 0,
-    "index": 31,
+    "index": 0,
     "selected": true,
     "active": true,
-    "markdown": "###III Präsentation der Ergebnisse\n####3\\. Zusammenstellung spezifischer Kartierungen\nweitere Möglichkeiten\n* Vorlagen speichern/laden\n\t* können projektübergreifend verwendet werden\n* Hinzufügen von\n\t* Formen\n    * Bildern\n\t* HTML Frames\n* Speichern/exportieren als\n\t* Rasterbild (png, jpeg, tiff)\n    * PDF\n    * Scalable Vector Graphics (SVG)"
+    "markdown": "###III Präsentation der Ergebnisse\n1. Anzeige von Geodaten (Datenansicht)\n\t* Stile\n\t* Beschriftungen\n\t* Diagramme  \n <br>  \n2. Erstellen und Verwalten von Druckzusammenstellungen  \n<br>\n3. Zusammenstellung spezifischer Kartierungen\n\t* Seite einrichten\n\t* Karte hinzufügen und einrichten\n\t* Hinzufügen von Maßstab, Legende, etc.",
+    "x": 180,
+    "y": 180
   },
   "fileName": "QGIS_Present",
   "customStylesheet": ".strut-surface .themedArea {\n  font-family: \"Arial\", sans-serif;\n  font-size: 36px;\n  font-weight: 200;\n  letter-spacing: -0.02em;\n  color: #333; }\n\n.strut-surface .themedArea h1,\n.strut-surface .themedArea h2,\n.strut-surface .themedArea h3,\n.strut-surface .themedArea h4,\n.strut-surface .themedArea h5,\n.strut-surface .themedArea h6 {\n  margin: 0 0 20px 0;\n  color: #333;\n  font-family: 'Arial Black', Impact;\n  line-height: 0.9em;\n  letter-spacing: 0.02em;\n  text-transform: none;\n  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }\n\n.strut-surface .themedArea{\n \ttext-align:left;\n  \tpadding:1cm;\n}\n/*classes for h elements are used as follows*/\n/*#qgis-tutorial{\n  \ttext-align: center;\n}*/\n.strut-surface h1{\n  \tfont-size:260%;\n  \ttext-shadow: none;\n}\n\n.strut-surface h2{\n  \tfont-size:200%\n}\n.strut-surface h3{\n  \tfont-size:160%\n}\n.strut-surface h4{\n  \tfont-size:130%\n}",
