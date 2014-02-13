@@ -667,6 +667,23 @@
           },
           "imageType": "PNG",
           "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/IvcJPnU.png",
+          "type": "Image",
+          "x": 560,
+          "y": 12,
+          "scale": {
+            "x": 0.37109375,
+            "y": 0.37109375,
+            "width": 95,
+            "height": 95
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "rotate": 0,
+          "skewX": 0,
+          "skewY": 0
         }
       ],
       "z": 0,
@@ -737,7 +754,64 @@
       "markdown": ""
     },
     {
-      "components": [],
+      "components": [
+        {
+          "src": "http://i.imgur.com/B8waSPQ.png",
+          "type": "Image",
+          "x": 1.9132003104881055,
+          "y": 7.8264006209762105,
+          "scale": {
+            "x": 0.8713798977853492,
+            "y": 0.8713798977853492,
+            "width": 1023,
+            "height": 756.3577512776831
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/IvcJPnU.png",
+          "type": "Image",
+          "x": 879,
+          "y": 18,
+          "scale": {
+            "x": 0.37109375,
+            "y": 0.37109375,
+            "width": 95,
+            "height": 95
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/IvcJPnU.png",
+          "type": "Image",
+          "x": 738,
+          "y": 28,
+          "scale": {
+            "x": 0.37109375,
+            "y": 0.37109375,
+            "width": 95,
+            "height": 95
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "rotate": -3.14
+        },
+        {
+          "TextBox": {},
+          "x": 45,
+          "y": 131,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font color=\"#ff0000\"><font color=\"#cf0000\">Navigation in der Druckzusammenstellung</font><br></font>",
+          "selected": false
+        }
+      ],
       "z": 0,
       "impScale": 3,
       "rotateX": 0,
@@ -745,8 +819,19 @@
       "rotateZ": 0,
       "index": 23,
       "selected": false,
+      "active": false
+    },
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 24,
+      "selected": false,
       "active": false,
-      "markdown": "###III Präsentation der Ergebnisse\n####3\\. Zusammenstellung spezifischer Kartierungen\nKarte einrichten (Elementeigenschaften)\n* Maßstab\n* Ausdehnung\n* Koordinatengitter\n\t* Intervall in Meter\n    * Koordinaten (vertikal an den Seiten)\n* Position\n\t* auch über *Zusammenstellung* &#10149; *Raster* möglich\n* Hintergrund\n    \n"
+      "markdown": "###III Präsentation der Ergebnisse\n####3\\. Zusammenstellung spezifischer Kartierungen\nKarte einrichten (*Elementeigenschaften*)\n* Größe des Kartenrahmens\n* Maßstab\n* Ausdehnung\n* Koordinatengitter\n\t* Intervall in Meter\n    * Koordinaten (vertikal an den Seiten)\n* Position\n\t* auch über *Zusammenstellung* &#10149; *Raster* möglich\n* Hintergrund\n    \n"
     },
     {
       "components": [
@@ -770,7 +855,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 24,
+      "index": 25,
       "selected": false,
       "active": false,
       "markdown": ""
@@ -782,7 +867,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 25,
+      "index": 26,
       "selected": false,
       "active": false,
       "markdown": "###III Präsentation der Ergebnisse\n####3\\. Zusammenstellung spezifischer Kartierungen\nHinzufügen weiterer Elemente\n* Maßstab\n* Legende\n* Nordpfeil\n"
@@ -839,7 +924,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 26,
+      "index": 27,
       "selected": false,
       "active": false
     },
@@ -895,7 +980,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 27,
+      "index": 28,
       "selected": false,
       "active": false
     },
@@ -951,7 +1036,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 28,
+      "index": 29,
       "selected": false,
       "active": false,
       "markdown": ""
@@ -1008,7 +1093,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 29,
+      "index": 30,
       "selected": false,
       "active": false
     },
@@ -1019,10 +1104,10 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 30,
+      "index": 31,
       "selected": true,
       "active": true,
-      "markdown": "###III Präsentation der Ergebnisse\n####3\\. Zusammenstellung spezifischer Kartierungen\nweitere Möglichkeiten\n* Vorlagen speichern/laden\n\t* können projektübergreifend verwendet werden\n* Hinzufügen von\n\t* Formen\n    * Bilder\n\t* HTML Frames\n* Speichern/exportieren als\n\t* Rasterbild (png, jpeg, tiff)\n    * PDF\n    * Scalable Vector Graphics (SVG)"
+      "markdown": "###III Präsentation der Ergebnisse\n####3\\. Zusammenstellung spezifischer Kartierungen\nweitere Möglichkeiten\n* Vorlagen speichern/laden\n\t* können projektübergreifend verwendet werden\n* Hinzufügen von\n\t* Formen\n    * Bildern\n\t* HTML Frames\n* Speichern/exportieren als\n\t* Rasterbild (png, jpeg, tiff)\n    * PDF\n    * Scalable Vector Graphics (SVG)"
     }
   ],
   "activeSlide": {
@@ -1032,10 +1117,10 @@
     "rotateX": 0,
     "rotateY": 0,
     "rotateZ": 0,
-    "index": 30,
+    "index": 31,
     "selected": true,
     "active": true,
-    "markdown": "###III Präsentation der Ergebnisse\n####3\\. Zusammenstellung spezifischer Kartierungen\nweitere Möglichkeiten\n* Vorlagen speichern/laden\n\t* können projektübergreifend verwendet werden\n* Hinzufügen von\n\t* Formen\n    * Bilder\n\t* HTML Frames\n* Speichern/exportieren als\n\t* Rasterbild (png, jpeg, tiff)\n    * PDF\n    * Scalable Vector Graphics (SVG)"
+    "markdown": "###III Präsentation der Ergebnisse\n####3\\. Zusammenstellung spezifischer Kartierungen\nweitere Möglichkeiten\n* Vorlagen speichern/laden\n\t* können projektübergreifend verwendet werden\n* Hinzufügen von\n\t* Formen\n    * Bildern\n\t* HTML Frames\n* Speichern/exportieren als\n\t* Rasterbild (png, jpeg, tiff)\n    * PDF\n    * Scalable Vector Graphics (SVG)"
   },
   "fileName": "QGIS_Present",
   "customStylesheet": ".strut-surface .themedArea {\n  font-family: \"Arial\", sans-serif;\n  font-size: 36px;\n  font-weight: 200;\n  letter-spacing: -0.02em;\n  color: #333; }\n\n.strut-surface .themedArea h1,\n.strut-surface .themedArea h2,\n.strut-surface .themedArea h3,\n.strut-surface .themedArea h4,\n.strut-surface .themedArea h5,\n.strut-surface .themedArea h6 {\n  margin: 0 0 20px 0;\n  color: #333;\n  font-family: 'Arial Black', Impact;\n  line-height: 0.9em;\n  letter-spacing: 0.02em;\n  text-transform: none;\n  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }\n\n.strut-surface .themedArea{\n \ttext-align:left;\n  \tpadding:1cm;\n}\n/*classes for h elements are used as follows*/\n/*#qgis-tutorial{\n  \ttext-align: center;\n}*/\n.strut-surface h1{\n  \tfont-size:260%;\n  \ttext-shadow: none;\n}\n\n.strut-surface h2{\n  \tfont-size:200%\n}\n.strut-surface h3{\n  \tfont-size:160%\n}\n.strut-surface h4{\n  \tfont-size:130%\n}",
@@ -1043,7 +1128,5 @@
   "cannedTransition": "carousel",
   "customBackgrounds": {
     "bgs": []
-  },
-  "overviewX": 2980,
-  "overviewY": 600
+  }
 }
