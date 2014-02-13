@@ -10,7 +10,7 @@
       "index": 0,
       "selected": true,
       "active": true,
-      "markdown": "###II Analytische Funktionen\n\n1. Überblick der Funktionen\n\t* Built-In: gdal, ftools\n\t* Plugins: \n    \t* Processing (SEXTANTE)\n    \t* GRASS\n    \t* etc.\n\n2. Analytisches Arbeiten\n\t* Vektor\n    * Raster\n    \n3. Erweiterte Prozessierungsmöglichkeiten\n\t* Grafische Modellierung\n\t* Python in QGIS",
+      "markdown": "###II Analytische Funktionen\n\n1. Überblick der Funktionen\n\t* Built-In: gdal, ftools\n\t* Erweiterungen (Plugins): \n    \t* Verarbeitung (Processing)\n    \t* GRASS\n    \t* etc.\n\n2. Analytisches Arbeiten\n\t* Vektor\n    * Raster\n    \n3. Erweiterte Prozessierungsmöglichkeiten\n\t* Grafische Modellierung\n\t* Python in QGIS",
       "x": 180,
       "y": 180
     },
@@ -24,7 +24,7 @@
       "index": 1,
       "selected": false,
       "active": false,
-      "markdown": "###II Analytische Funktionen\n####1\\. Überblick der Funktionen\n\nBuilt-In\n\n* Vektor: ftools\n\t* Puffer\n    * Verschneidung\n    * Zusammenführung\n    * Konvertierungen\n    * Einfache Analyse\n    * etc.",
+      "markdown": "###II Analytische Funktionen\n####1\\. Überblick der Funktionen\n\nBuilt-In\n\n* Vektor: ftools / ogr\n\t* Puffer\n    * Verschneidung\n    * Zusammenführung\n    * Konvertierungen\n    * Einfache Analyse\n    * etc.",
       "x": 460,
       "y": 180
     },
@@ -110,7 +110,7 @@
       "index": 5,
       "selected": false,
       "active": false,
-      "markdown": "###II Analytische Funktionen\n####1\\. Überblick der Funktionen\n\nPlugins\n\n* GRASS\n* Processing (ehem. SEXTANTE)\n* Rastergeländeanalyse-Erweiterung\n* MMQGIS\n",
+      "markdown": "###II Analytische Funktionen\n####1\\. Überblick der Funktionen\n\nErweiterungen (Plugins)\n\n* GRASS\n* Verarbeitung (Processing)\n* Rastergeländeanalyse-Erweiterung\n* MMQGIS\n",
       "x": 1580,
       "y": 180
     },
@@ -124,7 +124,7 @@
       "index": 6,
       "selected": false,
       "active": false,
-      "markdown": "###II Analytische Funktionen\n####1\\. Überblick der Funktionen\n\nGRASS\n\n* Bislang nur Bearbeitung der Daten in GRASS-Umgebung\n* In QGIS 2.0 auch eine komfortable GUI\n\t- Zugriff über Punkt \"Verarbeitung - Werkzeugkiste\"\n\t- Dort Funktionsumfang erheblich erweitert\n",
+      "markdown": "###II Analytische Funktionen\n####1\\. Überblick der Funktionen\n\nGRASS\n\n* Bislang nur Bearbeitung der Daten in GRASS-Umgebung\n* In QGIS 2.0 auch eine komfortable GUI\n\t- Zugriff über Punkt \"Verarbeitung - Werkzeugkiste\"  \n\t&#10149; Funktionsumfang erheblich erweitert\n",
       "x": 1860,
       "y": 460
     },
@@ -196,7 +196,7 @@
       "index": 9,
       "selected": false,
       "active": false,
-      "markdown": "###II Analytische Funktionen\n####1\\. Überblick der Funktionen\n\nProcessing (ehem. SEXTANTE)\n\n* Einbindung verschiedener Bibliotheken\n\t* GDAL/OGR\n    \t*identisch mit Raster/Vektormenü\n    * GRASS\n    * SAGA\n    * Orfeo-Toolbox\n    * Tools for LiDAR data (LAStools)\n    * GeoServer/PostGIS tools",
+      "markdown": "###II Analytische Funktionen\n####1\\. Überblick der Funktionen\n\nVerarbeitung (Processing)\n\n* Einbindung verschiedener Bibliotheken\n\t* GDAL/OGR\n    \t* identisch mit Raster/Vektormenü\n    * GRASS\n    * SAGA\n    * Orfeo-Toolbox\n    * Tools for LiDAR data (LAStools)\n    * GeoServer/PostGIS tools",
       "x": 2700,
       "y": 460
     },
@@ -215,6 +215,21 @@
           },
           "imageType": "PNG",
           "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/ABzJOXY.png",
+          "type": "Image",
+          "x": 736,
+          "y": 615,
+          "scale": {
+            "x": 0.40625,
+            "y": 0.40625,
+            "width": 104,
+            "height": 104
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "rotate": -1.58
         }
       ],
       "z": 0,
@@ -325,7 +340,7 @@
       "index": 15,
       "selected": false,
       "active": false,
-      "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nVektor  \n  * Wie weit liegen die Fundorte vom nächsten Fließgewässer entfernt?  \n  * Welche geologischen Vorkommen treten in welchem Flächenmaß in den Herrschaftsgebieten auf?  \n",
+      "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nVektor  \n  * Wie weit liegen die Fundorte vom nächsten Fließgewässer entfernt?  \n  * Welche Ressourcen treten in welchem Flächenanteil in den Herrschaftsgebieten auf?  \n",
       "x": 4660,
       "y": 740
     },
@@ -339,7 +354,7 @@
       "index": 16,
       "selected": false,
       "active": false,
-      "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nWie weit liegen die Fundorte vom nächsten Gewässer?\n  * GRASS Algorithmus (v.distance)  \n  &#10149; liefert Geometrie\n<br>(\"distance\"-Spalten müssen existieren!)\n  * Vektorfeldrechner  \n  &#10149; Länge der Geometrie berechnen\n  ",
+      "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nWie weit liegen die Fundorte vom nächsten Gewässer?\n  * Hinzufügen gleichnamiger Attribute in den Datensätzen  \n  &#10149; bereits durchgeführt  \n<br>  \n  * GRASS Algorithmus (v.distance)  \n  &#10149; liefert Liniengeometrie  \n<br>  \n  * Vektorfeldrechner  \n  &#10149; Längenberechnung\n  ",
       "x": 4940,
       "y": 740
     },
@@ -396,6 +411,20 @@
             "y": 0.8732993197278912,
             "width": 1027,
             "height": 755.4039115646259
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/ABzJOXY.png",
+          "type": "Image",
+          "x": 906,
+          "y": 345,
+          "scale": {
+            "x": 0.40625,
+            "y": 0.40625,
+            "width": 104,
+            "height": 104
           },
           "imageType": "PNG",
           "selected": false
@@ -477,6 +506,20 @@
           },
           "imageType": "PNG",
           "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/ABzJOXY.png",
+          "type": "Image",
+          "x": 786,
+          "y": 427,
+          "scale": {
+            "x": 0.40625,
+            "y": 0.40625,
+            "width": 104,
+            "height": 104
+          },
+          "imageType": "PNG",
+          "selected": false
         }
       ],
       "z": 0,
@@ -500,6 +543,34 @@
             "y": 0.8767006802721089,
             "width": 1031,
             "height": 758.3460884353742
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/ABzJOXY.png",
+          "type": "Image",
+          "x": 311,
+          "y": 143,
+          "scale": {
+            "x": 0.40625,
+            "y": 0.40625,
+            "width": 104,
+            "height": 104
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/ABzJOXY.png",
+          "type": "Image",
+          "x": 197,
+          "y": 395,
+          "scale": {
+            "x": 0.40625,
+            "y": 0.40625,
+            "width": 104,
+            "height": 104
           },
           "imageType": "PNG",
           "selected": false
@@ -529,6 +600,20 @@
           },
           "imageType": "PNG",
           "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/ABzJOXY.png",
+          "type": "Image",
+          "x": 520,
+          "y": 456,
+          "scale": {
+            "x": 0.40625,
+            "y": 0.40625,
+            "width": 104,
+            "height": 104
+          },
+          "imageType": "PNG",
+          "selected": false
         }
       ],
       "z": 0,
@@ -550,7 +635,7 @@
       "index": 24,
       "selected": false,
       "active": false,
-      "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nWelche geologischen Vorkommen treten mit welchem Flächenanteil in den Herrschaftsgebieten auf?\n\n<br>\n\n&#10149; Vektor &#10149; Geoverabeitungswerkzeuge &#10149; Schnittmengen\n\n  Bei dem sich ergebenden Layer: <br> <br>\n&#10149; Attributtabelle &#10149; Bearbeitungsstatus umschalten <br>&#10149; Feldrechner öffnen\n&#10149; Neues Feld anlegen\n- Ausgabefeldname: area\n- Ausdruck: $area\n    ",
+      "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nWelche Ressourcen treten mit welchem Flächenanteil in den Herrschaftsgebieten auf?\n\n<br>\n\n&#10149; Vektor &#10149; Geoverabeitungswerkzeuge &#10149; Schnittmengen\n\n<br>\n\n  Bei dem sich ergebenden Layer:  \n&#10149; Attributtabelle &#10149; Bearbeitungsstatus umschalten <br>&#10149; Feldrechner öffnen\n&#10149; Neues Feld anlegen\n- Ausgabefeldname: area\n- Ausdruck: $area\n    ",
       "x": 5500,
       "y": 1020
     },
@@ -624,15 +709,15 @@
     {
       "components": [
         {
-          "src": "http://i.imgur.com/CIYChgx.jpg",
+          "src": "http://i.imgur.com/Uq6Pgll.jpg",
           "type": "Image",
-          "x": 8,
-          "y": 16,
+          "x": 0,
+          "y": 11,
           "scale": {
-            "x": 0.8773913043478261,
-            "y": 0.8773913043478261,
-            "width": 1009,
-            "height": 735.2539130434783
+            "x": 0.8913043478260868,
+            "y": 0.8913043478260868,
+            "width": 1024.9999999999998,
+            "height": 746.9130434782608
           },
           "imageType": "JPG",
           "selected": false
@@ -640,8 +725,8 @@
         {
           "src": "http://i.imgur.com/ABzJOXY.png",
           "type": "Image",
-          "x": 37,
-          "y": 6,
+          "x": 29,
+          "y": 0,
           "scale": {
             "x": 0.40625,
             "y": 0.40625,
@@ -654,8 +739,8 @@
         {
           "src": "http://i.imgur.com/ABzJOXY.png",
           "type": "Image",
-          "x": 303,
-          "y": 400,
+          "x": 422,
+          "y": -2,
           "scale": {
             "x": 0.40625,
             "y": 0.40625,
@@ -668,8 +753,22 @@
         {
           "src": "http://i.imgur.com/ABzJOXY.png",
           "type": "Image",
-          "x": 425,
-          "y": 4,
+          "x": 398,
+          "y": 163,
+          "scale": {
+            "x": 0.40625,
+            "y": 0.40625,
+            "width": 104,
+            "height": 104
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/ABzJOXY.png",
+          "type": "Image",
+          "x": 235,
+          "y": 401,
           "scale": {
             "x": 0.40625,
             "y": 0.40625,
@@ -749,6 +848,60 @@
     {
       "components": [
         {
+          "src": "http://i.imgur.com/dNaOVhU.png",
+          "type": "Image",
+          "x": -1,
+          "y": 8,
+          "scale": {
+            "x": 0.8709677419354839,
+            "y": 0.8709677419354839,
+            "width": 1026,
+            "height": 753.3870967741935
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/ABzJOXY.png",
+          "type": "Image",
+          "x": 361,
+          "y": 561,
+          "scale": {
+            "x": 0.40625,
+            "y": 0.40625,
+            "width": 104,
+            "height": 104
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/ABzJOXY.png",
+          "type": "Image",
+          "x": 926,
+          "y": 246,
+          "scale": {
+            "x": 0.40625,
+            "y": 0.40625,
+            "width": 104,
+            "height": 104
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 30,
+      "selected": false,
+      "active": false
+    },
+    {
+      "components": [
+        {
           "src": "http://i.imgur.com/S78uSgx.png",
           "type": "Image",
           "x": 0,
@@ -769,12 +922,66 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 30,
+      "index": 31,
       "selected": false,
       "active": false,
       "x": 6620,
       "y": 1020,
       "markdown": ""
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/jXC4AA3.png",
+          "type": "Image",
+          "x": 0,
+          "y": 8,
+          "scale": {
+            "x": 0.8700084961767205,
+            "y": 0.8700084961767205,
+            "width": 1024,
+            "height": 751.6873406966865
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/ABzJOXY.png",
+          "type": "Image",
+          "x": 540,
+          "y": 309,
+          "scale": {
+            "x": 0.40625,
+            "y": 0.40625,
+            "width": 104,
+            "height": 104
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/ABzJOXY.png",
+          "type": "Image",
+          "x": 703,
+          "y": 205,
+          "scale": {
+            "x": 0.40625,
+            "y": 0.40625,
+            "width": 104,
+            "height": 104
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 32,
+      "selected": false,
+      "active": false
     },
     {
       "components": [
@@ -798,7 +1005,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 31,
+      "index": 33,
       "selected": false,
       "active": false,
       "markdown": "",
@@ -812,10 +1019,10 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 32,
+      "index": 34,
       "selected": false,
       "active": false,
-      "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nBestimmung der Meereshöhe aller Fundorte\n\n  * Plugin  \n  &#10149; Point Sampling Tool  \n  &#10149; kann Rasterwerte und Vektorattribute in einen Layer schreiben",
+      "markdown": "###II Analytische Funktionen\n####2\\. Analytisches Arbeiten\n\nBestimmung der Meereshöhe aller Fundorte\n\n  * Erweiterung  \n  &#10149; Point Sampling Tool  \n  &#10149; kann Rasterwerte und Vektorattribute in einen Layer schreiben",
       "x": 7180,
       "y": 1300
     },
@@ -834,6 +1041,21 @@
           },
           "imageType": "PNG",
           "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/ABzJOXY.png",
+          "type": "Image",
+          "x": 881,
+          "y": 117,
+          "scale": {
+            "x": 0.40625,
+            "y": 0.40625,
+            "width": 104,
+            "height": 104
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "rotate": 1.56
         }
       ],
       "z": 0,
@@ -841,7 +1063,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 33,
+      "index": 35,
       "selected": false,
       "active": false,
       "x": 7460,
@@ -855,7 +1077,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 34,
+      "index": 36,
       "selected": false,
       "active": false,
       "markdown": "###II Analytische Funktionen\n####3\\. Erweiterte Prozessierungsmöglichkeiten\n\nAutomatisierte Ausführung mehrerer Prozessierungsschritte\n* Grafische Modellierung\n* Python in QGIS",
@@ -869,7 +1091,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 35,
+      "index": 37,
       "selected": false,
       "active": false,
       "markdown": "###II Analytische Funktionen\n####3\\. Erweiterte Prozessierungsmöglichkeiten\n\nGrafische Modellierung\n* Verkettung mehrerer Prozesse zu komplexen Modellen\n* Konfiguration über grafische Benutzeroberfläche\n* keine Programmierung erforderlich\n<br> <br>\n* Einmalige Festlegung der Prozessparameter im Modell\n* Eingabe/Ausgabe variabel",
@@ -883,7 +1105,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 36,
+      "index": 38,
       "selected": false,
       "active": false,
       "markdown": "###II Analytische Funktionen\n####3\\. Erweiterte Prozessierungsmöglichkeiten\n\nGrafische Modellierung - Beispielszenario  \n  \n* Herrschaftsgebiete um Fundorte bestimmen  \n  \n\t1. Einzugsgebiete berechnen (Voronoi-Methode)\n\t2. Ergebnis mit Küstenlinie verschneiden",
@@ -912,7 +1134,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 37,
+      "index": 39,
       "selected": false,
       "active": false,
       "markdown": "",
@@ -934,6 +1156,36 @@
           },
           "imageType": "PNG",
           "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/ABzJOXY.png",
+          "type": "Image",
+          "x": 701,
+          "y": 631,
+          "scale": {
+            "x": 0.40625,
+            "y": 0.40625,
+            "width": 104,
+            "height": 104
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "rotate": -1.59
+        },
+        {
+          "src": "http://i.imgur.com/ABzJOXY.png",
+          "type": "Image",
+          "x": 627,
+          "y": 630,
+          "scale": {
+            "x": 0.40625,
+            "y": 0.40625,
+            "width": 104,
+            "height": 104
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "rotate": -1.59
         }
       ],
       "z": 0,
@@ -941,12 +1193,52 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 38,
+      "index": 40,
       "selected": false,
       "active": false,
       "markdown": "",
       "x": 8860,
       "y": 1580
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/Lv2Reak.png",
+          "type": "Image",
+          "x": -1,
+          "y": 8,
+          "scale": {
+            "x": 0.8718166383701188,
+            "y": 0.8718166383701188,
+            "width": 1027,
+            "height": 753.2495755517826
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/ABzJOXY.png",
+          "type": "Image",
+          "x": 658,
+          "y": 574,
+          "scale": {
+            "x": 0.40625,
+            "y": 0.40625,
+            "width": 104,
+            "height": 104
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 41,
+      "selected": false,
+      "active": false
     },
     {
       "components": [],
@@ -955,7 +1247,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 39,
+      "index": 42,
       "selected": false,
       "active": false,
       "markdown": "###II Analytische Funktionen\n####3\\. Erweiterte Prozessierungsmöglichkeiten\n\nPython in QGIS\n\n* Konsole\n\t* Direkte Ausführung\n* Skripte\n\t* Verkettung von Funktionen\n* Entwicklung von Plugins\n\t* Inhalt eines eigenen Tutorials",
@@ -969,7 +1261,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 40,
+      "index": 43,
       "selected": false,
       "active": false,
       "markdown": "###II Analytische Funktionen\n####3\\. Erweiterte Prozessierungsmöglichkeiten\n\nPython in QGIS\n\n* weiterführende Links\n\t* PyQGIS Cookbook: http://www.qgis.org/en/docs/pyqgis_developer_cookbook/intro.html\n    * Plugins: http://www.qgis.org/en/docs/pyqgis_developer_cookbook/plugins.html#developing-plugins\n    * API: http://qgis.org/api/ ",
@@ -983,7 +1275,7 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 41,
+      "index": 44,
       "selected": false,
       "active": false,
       "markdown": "###II Analytische Funktionen\n####3\\. Erweiterte Prozessierungsmöglichkeiten\n\nPython-Skripte\n\n* Skriptbasierte Verkettung mehrerer Prozesse\n* Modelle können als Skripte gespeichert werden\n* Aufruf und Bearbeitung auch über Werkzeugkiste\n",
@@ -1001,7 +1293,7 @@
     "index": 0,
     "selected": true,
     "active": true,
-    "markdown": "###II Analytische Funktionen\n\n1. Überblick der Funktionen\n\t* Built-In: gdal, ftools\n\t* Plugins: \n    \t* Processing (SEXTANTE)\n    \t* GRASS\n    \t* etc.\n\n2. Analytisches Arbeiten\n\t* Vektor\n    * Raster\n    \n3. Erweiterte Prozessierungsmöglichkeiten\n\t* Grafische Modellierung\n\t* Python in QGIS",
+    "markdown": "###II Analytische Funktionen\n\n1. Überblick der Funktionen\n\t* Built-In: gdal, ftools\n\t* Erweiterungen (Plugins): \n    \t* Verarbeitung (Processing)\n    \t* GRASS\n    \t* etc.\n\n2. Analytisches Arbeiten\n\t* Vektor\n    * Raster\n    \n3. Erweiterte Prozessierungsmöglichkeiten\n\t* Grafische Modellierung\n\t* Python in QGIS",
     "x": 180,
     "y": 180
   },
@@ -1011,7 +1303,5 @@
   "cannedTransition": "carousel",
   "customBackgrounds": {
     "bgs": []
-  },
-  "overviewX": 2980,
-  "overviewY": 600
+  }
 }
