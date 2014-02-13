@@ -175,7 +175,7 @@
       "index": 7,
       "selected": false,
       "active": false,
-      "markdown": "###I Grundlagen - Datenquellen\n####Geodatenbanken:  \n<br>\nVektorformat Spatialite-Datenbank: archäologische Fundstellen  \n<br>  \n&#10149; Layer &#10149; Spatialite-Layer hinzufügen\n<br>\n&#10149; Neu\n&#10149;..\\AtlantGIS\\Ausgangsdaten\\Vektor\\db\\sites.sqlite\n\n\n",
+      "markdown": "###I Grundlagen - Datenquellen\n####Geodatenbanken:  \n<br>\nVektorformat Spatialite-Datenbank: archäologische Fundstellen  \n<br>  \n&#10149; Layer &#10149; Spatialite-Layer hinzufügen\n<br>\n&#10149; Neu\n&#10149;..\\AtlantGIS\\Ausgangsdaten\\Vektor\\sqlite\\sites.sqlite\n\n\n",
       "x": 1862,
       "y": 147
     },
@@ -344,7 +344,7 @@
       "index": 12,
       "selected": false,
       "active": false,
-      "markdown": "###I Grundlagen - Datenquellen\n####OGC-Geodaten Web-Services\n\nweitere Dienste:\n* OpenStreetMap als WMS: http://ows.terrestris.de/osm/service? (WMS)\n* Oxford Archaeology: http://mapdata.thehumanjourney.net/ (WMS + WFS)\n* Gewässer von AtlantGIS http://143.93.114.113/geoserver/workshop/wfs (WMS)\n",
+      "markdown": "###I Grundlagen - Datenquellen\n####OGC-Geodaten Web-Services\n\nweitere Dienste:\n* OpenStreetMap als WMS: http://ows.terrestris.de/osm/service? (WMS)\n* Gewässer von AtlantGIS http://143.93.114.113/geoserver/workshop/wfs (WMS)\n",
       "x": 2690,
       "y": 318
     },
@@ -475,6 +475,34 @@
           },
           "imageType": "PNG",
           "selected": false
+        },
+        {
+          "src": "http://www.iconsdb.com/icons/preview/color/C90000/arrow-87-xxl.png",
+          "type": "Image",
+          "x": 822,
+          "y": 141,
+          "scale": {
+            "x": 0.36328125,
+            "y": 0.36328125,
+            "width": 93,
+            "height": 93
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://www.iconsdb.com/icons/preview/color/C90000/arrow-87-xxl.png",
+          "type": "Image",
+          "x": 116,
+          "y": 203,
+          "scale": {
+            "x": 0.36328125,
+            "y": 0.36328125,
+            "width": 93,
+            "height": 93
+          },
+          "imageType": "PNG",
+          "selected": false
         }
       ],
       "z": 0,
@@ -504,7 +532,78 @@
       "y": 740
     },
     {
-      "components": [],
+      "components": [
+        {
+          "src": "http://i.imgur.com/8CvLmUL.jpg",
+          "type": "Image",
+          "x": 76,
+          "y": 184,
+          "scale": {
+            "x": 0.7423076923076922,
+            "y": 0.7423076923076922,
+            "width": 771.9999999999999,
+            "height": 530.0076923076922
+          },
+          "imageType": "JPG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/ADJ0Zkp.jpg",
+          "type": "Image",
+          "x": 345,
+          "y": 324,
+          "scale": {
+            "x": 0.7305045871559633,
+            "y": 0.7305045871559633,
+            "width": 637,
+            "height": 428.07568807339453
+          },
+          "imageType": "JPG",
+          "selected": false
+        },
+        {
+          "src": "http://www.iconsdb.com/icons/preview/color/C90000/arrow-87-xxl.png",
+          "type": "Image",
+          "x": 626,
+          "y": 350,
+          "scale": {
+            "x": 0.21093750000000003,
+            "y": 0.21093750000000003,
+            "width": 54.00000000000001,
+            "height": 54.00000000000001
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://www.iconsdb.com/icons/preview/color/C90000/arrow-87-xxl.png",
+          "type": "Image",
+          "x": 462,
+          "y": 182,
+          "scale": {
+            "x": 0.36328125,
+            "y": 0.36328125,
+            "width": 93,
+            "height": 93
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://www.iconsdb.com/icons/preview/color/C90000/arrow-87-xxl.png",
+          "type": "Image",
+          "x": 438,
+          "y": 365,
+          "scale": {
+            "x": 0.21093750000000003,
+            "y": 0.21093750000000003,
+            "width": 54.00000000000001,
+            "height": 54.00000000000001
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
       "z": 0,
       "impScale": 3,
       "rotateX": 0,
@@ -513,7 +612,19 @@
       "index": 20,
       "selected": false,
       "active": false,
-      "markdown": "###I Datenquellen\n####Versteckte Funktionen in Menüs/Erweiterungen\n\n* Leerwert bei Raster (Eigenschaften)\n* Datenkodierung <br>\n\n\t&#10149; Layer &#10149; Eigenschaften &#10149; Seite \"Allgemein\" <br>\n    &#10149; Datenquellenkodierung (UTF-8)",
+      "markdown": "###I Datenquellen\n####Nützliche Erweiterungen zur Datenpflege\n"
+    },
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 21,
+      "selected": true,
+      "active": true,
+      "markdown": "###I Datenquellen\n####Versteckte Funktionen in Menüs/Erweiterungen\n\n* Leerwerte bei Raster (Eigenschaften) <br>  \n\n\t&#10149; Definition der Werte, die auf NULL gesetzt werden sollen\n    \n    <br>  \n    \n* Datenkodierung setzen<br>\n\n\t&#10149; Layer &#10149; Eigenschaften &#10149; Seite \"Allgemein\" <br>\n    &#10149; Datenquellenkodierung (UTF-8)",
       "x": 4940,
       "y": 740
     },
@@ -522,8 +633,8 @@
         {
           "src": "http://i.imgur.com/eeVQHOF.jpg",
           "type": "Image",
-          "x": 38,
-          "y": 41,
+          "x": 28,
+          "y": 27,
           "scale": {
             "x": 1,
             "y": 1
@@ -544,6 +655,19 @@
           },
           "imageType": "PNG",
           "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 298,
+          "y": 337,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#f10808\">Leerwerte bei Raster</font>",
+          "size": 48,
+          "selected": false
         }
       ],
       "z": 0,
@@ -551,17 +675,18 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 21,
+      "index": 22,
       "selected": false,
-      "active": false
+      "active": false,
+      "markdown": ""
     },
     {
       "components": [
         {
           "src": "http://i.imgur.com/eGfYEZI.jpg",
           "type": "Image",
-          "x": 79,
-          "y": 41,
+          "x": 60,
+          "y": 44,
           "scale": {
             "x": 1,
             "y": 1
@@ -582,6 +707,19 @@
           },
           "imageType": "PNG",
           "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 381,
+          "y": 475,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#ff0000\">Datenkodierung</font>",
+          "size": 48,
+          "selected": false
         }
       ],
       "z": 0,
@@ -589,48 +727,24 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "index": 22,
-      "selected": true,
-      "active": true
+      "index": 23,
+      "selected": false,
+      "active": false
     }
   ],
   "activeSlide": {
-    "components": [
-      {
-        "src": "http://i.imgur.com/eGfYEZI.jpg",
-        "type": "Image",
-        "x": 79,
-        "y": 41,
-        "scale": {
-          "x": 1,
-          "y": 1
-        },
-        "imageType": "JPG",
-        "selected": false
-      },
-      {
-        "src": "http://www.iconsdb.com/icons/preview/color/C90000/arrow-87-xxl.png",
-        "type": "Image",
-        "x": 497,
-        "y": 138,
-        "scale": {
-          "x": 0.36328125,
-          "y": 0.36328125,
-          "width": 93,
-          "height": 93
-        },
-        "imageType": "PNG",
-        "selected": false
-      }
-    ],
+    "components": [],
     "z": 0,
     "impScale": 3,
     "rotateX": 0,
     "rotateY": 0,
     "rotateZ": 0,
-    "index": 22,
+    "index": 21,
     "selected": true,
-    "active": true
+    "active": true,
+    "markdown": "###I Datenquellen\n####Versteckte Funktionen in Menüs/Erweiterungen\n\n* Leerwerte bei Raster (Eigenschaften) <br>  \n\n\t&#10149; Definition der Werte, die auf NULL gesetzt werden sollen\n    \n    <br>  \n    \n* Datenkodierung setzen<br>\n\n\t&#10149; Layer &#10149; Eigenschaften &#10149; Seite \"Allgemein\" <br>\n    &#10149; Datenquellenkodierung (UTF-8)",
+    "x": 4940,
+    "y": 740
   },
   "fileName": "QGIS_Datenquellen",
   "customStylesheet": ".strut-surface .themedArea {\n  font-family: \"Arial\", sans-serif;\n  font-size: 36px;\n  font-weight: 200;\n  letter-spacing: -0.02em;\n  color: #333; }\n\n.strut-surface .themedArea h1,\n.strut-surface .themedArea h2,\n.strut-surface .themedArea h3,\n.strut-surface .themedArea h4,\n.strut-surface .themedArea h5,\n.strut-surface .themedArea h6 {\n  margin: 0 0 20px 0;\n  color: #333;\n  font-family: 'Arial Black', Impact;\n  line-height: 0.9em;\n  letter-spacing: 0.02em;\n  text-transform: none;\n  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }\n\n.strut-surface .themedArea{\n \ttext-align:left;\n  \tpadding:1cm;\n}\n/*classes for h elements are used as follows*/\n/*#qgis-tutorial{\n  \ttext-align: center;\n}*/\n.strut-surface h1{\n  \tfont-size:260%;\n  \ttext-shadow: none;\n}\n\n.strut-surface h2{\n  \tfont-size:200%\n}\n.strut-surface h3{\n  \tfont-size:160%\n}\n.strut-surface h4{\n  \tfont-size:130%\n}",
