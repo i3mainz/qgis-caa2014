@@ -35,8 +35,8 @@
       "rotateY": 0,
       "rotateZ": 0,
       "index": 0,
-      "selected": false,
-      "active": false,
+      "selected": true,
+      "active": true,
       "x": 180,
       "y": 180,
       "markdown": "#QGIS Tutorial\n##Workshop der AG CAA 2014\n###Universität Tübingen\n###15. Februar 2014\n"
@@ -51,7 +51,7 @@
       "index": 1,
       "selected": false,
       "active": false,
-      "markdown": "###Inhalt\n\nI Grundlagen  \n  1. AtlantGIS - Das Szenario\n  * Die Einbindung unterschiedlicher Datenquellen\n  * Nützliche Anpassungen und Erweiterungen  \n<br>\n\nII Analytische Funktionen\n  1. Kernfunktionalitäten auf Grundlage der gdal-/ogr-Bibl.\n  * Erweiterte Funktionen über PlugIns\n  * Erweiterte Prozessierungsmöglichkeiten  \n<br>\n    \nIII Präsentation von Daten\n  1. Anzeige von Geodaten (Datenansicht)\n  * Erstellen und Verwalten von Druckzusammenstellungen\n  * Zusammenstellung spezifischer Kartierungen  ",
+      "markdown": "###Inhalt\n\nI Grundlagen  \n  1. AtlantGIS - Das Szenario\n  * Die Einbindung unterschiedlicher Datenquellen\n  * Nützliche Anpassungen und Erweiterungen  \n<br>\n\nII. Analytische Funktionen\n  1. Überblick der Funktionen\n  * Analytisches Arbeiten\n  * Erweiterte Prozessierungsmöglichkeiten  \n<br>\n    \nIII Präsentation von Daten\n  1. Anzeige von Geodaten (Datenansicht)\n  * Erstellen und Verwalten von Druckzusammenstellungen\n  * Zusammenstellung spezifischer Kartierungen  ",
       "x": 480,
       "y": 428
     },
@@ -665,7 +665,7 @@
       "index": 20,
       "selected": false,
       "active": false,
-      "markdown": "###I Datenquellen\n####Nützliche Erweiterungen zur Datenpflege\n"
+      "markdown": "###I Datenquellen\n####Erweiterungen installieren\n"
     },
     {
       "components": [],
@@ -804,22 +804,51 @@
       "rotateY": 0,
       "rotateZ": 0,
       "index": 25,
-      "selected": true,
-      "active": true,
+      "selected": false,
+      "active": false,
       "markdown": "### Datenformate\n\n* Vektordaten in QGIS: OGR Simple Features Library\n\n    * Teil des GDAL-Projekts\n        * http://www.gdal.org/ogr/\n\n#### Häufig übersehen\n\n* Die Website des Projekts bietet eine extrem umfangreiche Dokumentation zu allen möglichen Geodatenformaten\n\n    * Rasterdatenformate\n        * http://www.gdal.org/formats_list.html\n    * Vektordatenformate\n        * http://www.gdal.org/ogr/ogr_formats.html"
     }
   ],
   "activeSlide": {
-    "components": [],
+    "components": [
+      {
+        "src": "http://i3mainz.fh-mainz.de/sites/all/themes/i3Theme_v1/logo.png",
+        "type": "Image",
+        "x": 60,
+        "y": 602,
+        "scale": {
+          "x": 0.3666666666666667,
+          "y": 0.3666666666666667,
+          "width": 110.00000000000001,
+          "height": 110.00000000000001
+        },
+        "imageType": "PNG",
+        "selected": false
+      },
+      {
+        "src": "http://ag-caa.de/wp-content/themes/agcaa/images/custom-logo.png",
+        "type": "Image",
+        "x": 772,
+        "y": 611,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "imageType": "PNG",
+        "selected": false
+      }
+    ],
     "z": 0,
     "impScale": 3,
     "rotateX": 0,
     "rotateY": 0,
     "rotateZ": 0,
-    "index": 25,
+    "index": 0,
     "selected": true,
     "active": true,
-    "markdown": "### Datenformate\n\n* Vektordaten in QGIS: OGR Simple Features Library\n\n    * Teil des GDAL-Projekts\n        * http://www.gdal.org/ogr/\n\n#### Häufig übersehen\n\n* Die Website des Projekts bietet eine extrem umfangreiche Dokumentation zu allen möglichen Geodatenformaten\n\n    * Rasterdatenformate\n        * http://www.gdal.org/formats_list.html\n    * Vektordatenformate\n        * http://www.gdal.org/ogr/ogr_formats.html"
+    "x": 180,
+    "y": 180,
+    "markdown": "#QGIS Tutorial\n##Workshop der AG CAA 2014\n###Universität Tübingen\n###15. Februar 2014\n"
   },
   "fileName": "QGIS_Datenquellen",
   "customStylesheet": ".strut-surface .themedArea {\n  font-family: \"Arial\", sans-serif;\n  font-size: 36px;\n  font-weight: 200;\n  letter-spacing: -0.02em;\n  color: #333; }\n\n.strut-surface .themedArea h1,\n.strut-surface .themedArea h2,\n.strut-surface .themedArea h3,\n.strut-surface .themedArea h4,\n.strut-surface .themedArea h5,\n.strut-surface .themedArea h6 {\n  margin: 0 0 20px 0;\n  color: #333;\n  font-family: 'Arial Black', Impact;\n  line-height: 0.9em;\n  letter-spacing: 0.02em;\n  text-transform: none;\n  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }\n\n.strut-surface .themedArea{\n \ttext-align:left;\n  \tpadding:1cm;\n}\n/*classes for h elements are used as follows*/\n/*#qgis-tutorial{\n  \ttext-align: center;\n}*/\n.strut-surface h1{\n  \tfont-size:260%;\n  \ttext-shadow: none;\n}\n\n.strut-surface h2{\n  \tfont-size:200%\n}\n.strut-surface h3{\n  \tfont-size:160%\n}\n.strut-surface h4{\n  \tfont-size:130%\n}",
