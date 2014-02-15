@@ -24,7 +24,7 @@
       "index": 1,
       "selected": false,
       "active": false,
-      "markdown": "###III Präsentation von Daten\n####1\\. Anzeige von Geodaten (Datenansicht)\n * Manuelle Stilanpassung\n * Attributabhängige Visualisierung\n * Beschriftungen\n * Diagramme\n * ...",
+      "markdown": "###III Präsentation von Daten\n####1\\. Anzeige von Geodaten\n * Manuelle Stilanpassung\n * Attributabhängige Visualisierung\n * Beschriftungen\n * Diagramme\n * ...",
       "x": 460,
       "y": 180
     },
@@ -53,7 +53,7 @@
       "index": 2,
       "selected": false,
       "active": false,
-      "markdown": "###III Präsentation von Daten\n####1\\. Anzeige von Geodaten (Datenansicht)\nManuelle Stilanpassung  \n* Beispiel: Voronoi Polygone  \n&#10149; zur Darstellung der Grenzen ohne Füllung\n \n",
+      "markdown": "###III Präsentation von Daten\n####1\\. Anzeige von Geodaten\nManuelle Stilanpassung  \n* Beispiel: Voronoi Polygone  \n&#10149; zur Darstellung der Grenzen ohne Füllung\n \n",
       "x": 742,
       "y": 181
     },
@@ -195,7 +195,7 @@
       "index": 5,
       "selected": false,
       "active": false,
-      "markdown": "###III Präsentation von Daten\n####1\\. Anzeige von Geodaten (Datenansicht)\nAttributabhängige Visualisierung\n* Beispiel: Anzeige der Gewässer nach Durchflussvolumen",
+      "markdown": "###III Präsentation von Daten\n####1\\. Anzeige von Geodaten\nAttributabhängige Visualisierung\n* Beispiel: Anzeige der Gewässer nach Durchflussvolumen",
       "x": 1580,
       "y": 180
     },
@@ -323,7 +323,7 @@
       "index": 8,
       "selected": false,
       "active": false,
-      "markdown": "###III Präsentation von Daten\n####1\\. Anzeige von Geodaten (Datenansicht)\nBeschriftungen\n* Beispiel: Namen der Fundorte\n",
+      "markdown": "###III Präsentation von Daten\n####1\\. Anzeige von Geodaten\nBeschriftungen\n* Beispiel: Namen der Fundorte\n",
       "x": 2420,
       "y": 460
     },
@@ -465,7 +465,7 @@
       "index": 13,
       "selected": false,
       "active": false,
-      "markdown": "###III Präsentation von Daten\n####1\\. Anzeige von Geodaten (Datenansicht)\nDiagramme\n* Beispiel: Verteilung von Keramik",
+      "markdown": "###III Präsentation von Daten\n####1\\. Anzeige von Geodaten\nDiagramme\n* Beispiel: Verteilung von Keramik",
       "x": 3820,
       "y": 740
     },
@@ -537,7 +537,7 @@
       "index": 16,
       "selected": false,
       "active": false,
-      "markdown": "###III Präsentation von Daten\n####1\\. Anzeige von Geodaten (Datenansicht)\nDiagramme  \n&#10149; Beschriftung mittels *Diagram Legend Plugin* möglich\nhttp://plugins.qgis.org/plugins/DiagLeg/\n"
+      "markdown": "###III Präsentation von Daten\n####1\\. Anzeige von Geodaten\nDiagramme  \n&#10149; Beschriftung mittels *Diagram Legend Plugin* möglich\nhttp://plugins.qgis.org/plugins/DiagLeg/\n"
     },
     {
       "components": [],
