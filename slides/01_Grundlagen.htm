@@ -1,0 +1,994 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>QGIS Grundlagen</title>
+	<link rel="stylesheet" href="01_Grundlagen-Dateien/default-reset.css">
+	<link rel="stylesheet" type="text/css" href="01_Grundlagen-Dateien/main.css">
+	<link rel="stylesheet" href="01_Grundlagen-Dateien/default.css" id="theme">
+	<link href="01_Grundlagen-Dateien/web-fonts.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="01_Grundlagen-Dateien/demo.css">
+	<link rel="stylesheet" type="text/css" href="01_Grundlagen-Dateien/themes.css">
+	<link href="01_Grundlagen-Dateien/backgroundClasses.css" rel="stylesheet" type="text/css">
+	<link href="01_Grundlagen-Dateien/surfaceClasses.css" rel="stylesheet" type="text/css">
+
+	<style type="text/css">
+	.componentContainer {
+	    position: absolute;
+	    line-height: normal;
+	    /*-webkit-transform-origin: 135% 135%;
+	    -moz-transform-origin: 135% 135%;
+	    transform-origin: 135% 135%;*/
+	}
+
+	.transformContainer {
+	    -webkit-transform-origin: 0 0;
+	    -moz-transform-origin: 0 0;
+	    transform-origin: 0 0;
+	}
+
+	.bg {
+	    width: 100%;
+	    height: 100%;
+	}
+
+	#themeChooser {
+		position: absolute;
+		z-index: 1;
+		background-color: #EEE;
+		border-radius: 5px;
+		padding: 10px;
+	}
+
+	#main, body {
+		overflow: hidden;
+	}
+
+	.reveal.themedArea {
+	    display: block;
+	    position: absolute;
+	    top: 0px;
+	    left: 0px;
+	    z-index: 0;
+	    width: 100%;
+	    height: 100%;
+	}
+	</style>
+
+	<script src="01_Grundlagen-Dateien/analytics.js" async=""></script><script src="01_Grundlagen-Dateien/bespoke.js"></script>
+	<script src="01_Grundlagen-Dateien/bespoke-plugins.js"></script>
+	<script src="01_Grundlagen-Dateien/onready.js"></script>
+	<script src="01_Grundlagen-Dateien/loadPresentation.js"></script>
+	<script>
+	ready(function() {
+		if (document.getElementById('launched-placeholder'))
+        	loadPresentation();
+		if (!window.presStarted) {
+    		bespoke.horizontal.from('article', {
+    			hash: true,
+    			state: true
+    		});
+		}
+	});
+	</script>
+	<script>
+  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  	ga('create', 'UA-42322531-1', 'strut.io');
+  	ga('send', 'pageview');
+	</script>
+</head>
+<body>
+	<style>
+	.strut-surface .themedArea {
+  font-family: "Arial", sans-serif;
+  font-size: 36px;
+  font-weight: 200;
+  letter-spacing: -0.02em;
+  color: #333; }
+
+.strut-surface .themedArea h1,
+.strut-surface .themedArea h2,
+.strut-surface .themedArea h3,
+.strut-surface .themedArea h4,
+.strut-surface .themedArea h5,
+.strut-surface .themedArea h6 {
+  margin: 0 0 20px 0;
+  color: #333;
+  font-family: 'Arial Black', Impact;
+  line-height: 0.9em;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
+
+.strut-surface .themedArea{
+ 	text-align:left;
+  	padding:1cm;
+}
+/*classes for h elements are used as follows*/
+/*#qgis-tutorial{
+  	text-align: center;
+}*/
+.strut-surface h1{
+  	font-size:260%;
+  	text-shadow: none;
+}
+
+.strut-surface h2{
+  	font-size:200%
+}
+.strut-surface h3{
+  	font-size:160%
+}
+.strut-surface h4{
+  	font-size:130%
+}
+	</style>
+	<style>
+	
+	</style>
+	<style>
+
+
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+</style>
+	<div id="main" class=" strut-surface carousel">
+		<article class="innerBg bespoke-parent strut-slide-0">
+			
+				
+					<section class="slideContainer strut-slide-0 bespoke-slide bespoke-active" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-0">
+						<div class="themedArea">
+              			<h1 id="qgis-tutorial">QGIS Tutorial</h1>
+<h2 id="workshop-der-ag-caa-2014">Workshop der AG CAA 2014</h2>
+<h3 id="universit-t-t-bingen">Universität Tübingen</h3>
+<h3 id="15-februar-2014">15. Februar 2014</h3>
+
+              			</div>
+						
+							<div class="componentContainer " style="top: 602px; left: 60px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 110px; height: 110px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.37, 0.37);
+-moz-transform: scale(0.37, 0.37);
+transform: scale(0.37, 0.37)">
+<img src="01_Grundlagen-Dateien/logo.png">
+</div>
+</div>
+						
+							<div class="componentContainer " style="top: 611px; left: 772px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<img src="01_Grundlagen-Dateien/custom-logo.png">
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-1 bespoke-slide bespoke-inactive bespoke-after bespoke-after-1" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-1">
+						<div class="themedArea">
+              			<h3 id="inhalt">Inhalt</h3>
+<p>I Grundlagen  </p>
+<ol>
+<li>AtlantGIS - Das Szenario</li>
+<li>Die Einbindung unterschiedlicher Datenquellen</li>
+<li>Nützliche Anpassungen und Erweiterungen<br><br></li>
+</ol>
+<p>II. Analytische Funktionen</p>
+<ol>
+<li>Überblick der Funktionen</li>
+<li>Analytisches Arbeiten</li>
+<li>Erweiterte Prozessierungsmöglichkeiten<br><br></li>
+</ol>
+<p>III Präsentation von Daten</p>
+<ol>
+<li>Anzeige von Geodaten (Datenansicht)</li>
+<li>Erstellen und Verwalten von Druckzusammenstellungen</li>
+<li>Zusammenstellung spezifischer Kartierungen  </li>
+</ol>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-2 bespoke-slide bespoke-inactive bespoke-after bespoke-after-2" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-2">
+						<div class="themedArea">
+              			<h3 id="i-grundlagen-atlantgis">I Grundlagen - AtlantGIS</h3>
+<ul>
+<li>Idee<ul>
+<li>fiktiver, freier Datensatz (cc-by-sa 4.0)</li>
+<li>einfache Daten mit hohem narrativen Potential</li>
+<li>eingebunden in prototypische Anwendungsszenarien für GIS in der Archäologie</li>
+<li>inspiriert durch die Schilderungen Platons in den Dialogen "Timaios" und insb. "Kritias"<ul>
+<li>vgl. <a href="http://data.perseus.org/texts/urn:cts:greekLit:tlg0059.tlg032.perseus-grc1">http://data.perseus.org/texts/urn:cts:greekLit:tlg0059.tlg032.perseus-grc1</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-3 bespoke-slide bespoke-inactive bespoke-after bespoke-after-3" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-3">
+						<div class="themedArea">
+              			<h3 id="i-grundlagen-atlantgis">I Grundlagen - AtlantGIS</h3>
+<ul>
+<li>AtlantGIS Daten sind offen für Ergänzungen<ul>
+<li>Andere Aufgabenstellungen mit vorhandenen Daten</li>
+<li>Erweiterte Aufgabenstellungen mit neuen Daten</li>
+<li>Heute:<ul>
+<li>Aufteilung der Insel zwischen den zehn Söhnen des Poseidon und der Kleito</li>
+</ul>
+</li>
+<li>Denkbare Ergänzungen:<ul>
+<li>Gräberfelder der Bewohner von AtlantGIS</li>
+<li>Prospektionsdaten</li>
+<li>Modellierung der zentralen Stadt mit Kanälen etc.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-4 bespoke-slide bespoke-inactive bespoke-after bespoke-after-4" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-4">
+						<div class="themedArea">
+              			<h3 id="i-grundlagen-datenquellen">I Grundlagen - Datenquellen</h3>
+<ul>
+<li><p>Dateibasierte Raster- und Vektorformate</p>
+<ul>
+<li>Raster: DGM (GeoTIFF)</li>
+<li>Vektor: Küstenlinie (Shapefile)  </li>
+</ul>
+</li>
+<li><p>Geodatenbanken</p>
+<ul>
+<li>Spatialite: Fundorte</li>
+</ul>
+</li>
+<li><p>OGC-Geodaten Web-Services</p>
+<ul>
+<li>WMS: Weltkarte</li>
+<li>WFS: Gewässer</li>
+</ul>
+</li>
+</ul>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-5 bespoke-slide bespoke-inactive bespoke-after bespoke-after-5" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-5">
+						<div class="themedArea">
+              			<h3 id="i-grundlagen-datenquellen">I Grundlagen - Datenquellen</h3>
+<h4 id="dateibasierte-raster-und-vektorformate">Dateibasierte Raster- und Vektorformate</h4>
+<p><br>
+Rasterformat GeoTIFF:  digitales Höhenmodell
+<br>
+..\AtlantGIS\raster\atlantgis_dgm.tif<br><br> <br>
+Vektorformat Shapefile:  Küstenlinie
+<br>
+..\AtlantGIS\vector\shp\kuestenlinie.shp</p>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-6 bespoke-slide bespoke-inactive bespoke-after bespoke-after-6" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-6">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 21px; left: 15.26px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 989px; height: 725.97px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.81, 0.81);
+-moz-transform: scale(0.81, 0.81);
+transform: scale(0.81, 0.81)">
+<img src="01_Grundlagen-Dateien/ARjf8f7.jpg">
+</div>
+</div>
+						
+							<div class="componentContainer " style="top: 167px; left: 61px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 73px; height: 73px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.29, 0.29);
+-moz-transform: scale(0.29, 0.29);
+transform: scale(0.29, 0.29)">
+<img src="01_Grundlagen-Dateien/7rIHOtv.png">
+</div>
+</div>
+						
+							<div class="componentContainer " style="top: 137px; left: 62px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 73px; height: 73px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.29, 0.29);
+-moz-transform: scale(0.29, 0.29);
+transform: scale(0.29, 0.29)">
+<img src="01_Grundlagen-Dateien/7rIHOtv.png">
+</div>
+</div>
+						
+							<div class="componentContainer " style="top: 554px; left: 97px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 48px;" class="antialias">
+..\AtlantGIS\raster\atlantgis_dgm.tif<br>&nbsp;..\AtlantGIS\vector\shp\kuestenlinie.shp<br>
+</div>
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-7 bespoke-slide bespoke-inactive bespoke-after bespoke-after-7" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-7">
+						<div class="themedArea">
+              			<h3 id="i-grundlagen-datenquellen">I Grundlagen - Datenquellen</h3>
+<h4 id="geodatenbanken-">Geodatenbanken:</h4>
+<p><br>
+Vektorformat Spatialite-Datenbank: archäologische Fundstellen<br><br><br>➥ Layer ➥ Spatialite-Layer hinzufügen
+<br>
+➥ Neu
+➥..\AtlantGIS\vector\db\atlantgis_sites.sqlite</p>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-8 bespoke-slide bespoke-inactive bespoke-after bespoke-after-8" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-8">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 14px; left: 9px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 1007px; height: 740.61px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.82, 0.82);
+-moz-transform: scale(0.82, 0.82);
+transform: scale(0.82, 0.82)">
+<img src="01_Grundlagen-Dateien/o0N4ayN.jpg">
+</div>
+</div>
+						
+							<div class="componentContainer " style="top: 224px; left: 41px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 73px; height: 73px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.29, 0.29);
+-moz-transform: scale(0.29, 0.29);
+transform: scale(0.29, 0.29)">
+<img src="01_Grundlagen-Dateien/7rIHOtv.png">
+</div>
+</div>
+						
+							<div class="componentContainer " style="top: 561px; left: 582px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 73px; height: 73px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.29, 0.29);
+-moz-transform: scale(0.29, 0.29);
+transform: scale(0.29, 0.29)">
+<img src="01_Grundlagen-Dateien/7rIHOtv.png">
+</div>
+</div>
+						
+							<div class="componentContainer " style="top: 294px; left: 270px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 73px; height: 73px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.29, 0.29);
+-moz-transform: scale(0.29, 0.29);
+transform: scale(0.29, 0.29)">
+<img src="01_Grundlagen-Dateien/7rIHOtv.png">
+</div>
+</div>
+						
+							<div class="componentContainer " style="top: 176px; left: 79px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 48px;" class="antialias">
+..\AtlantGIS\vector\db\atlantgis_sites.sqlite
+</div>
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-9 bespoke-slide bespoke-inactive bespoke-after bespoke-after-9" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-9">
+						<div class="themedArea">
+              			<h3 id="i-grundlagen-datenquellen">I Grundlagen - Datenquellen</h3>
+<h4 id="ogc-geodaten-web-services">OGC-Geodaten Web-Services</h4>
+<p>Direkte Einbindung externer Geodaten</p>
+<ul>
+<li>Visualisierung: Web Map Service (WMS)</li>
+<li>Vektor: Web Feature Service (WFS)</li>
+<li>Raster: Web Coverage Service (WCS)</li>
+</ul>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-10 bespoke-slide bespoke-inactive bespoke-after bespoke-after-10" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-10">
+						<div class="themedArea">
+              			<h3 id="i-grundlagen-datenquellen">I Grundlagen - Datenquellen</h3>
+<h4 id="ogc-geodaten-web-services">OGC-Geodaten Web-Services</h4>
+<p>Suche über QGIS Oberfläche</p>
+<p>➥  WMS Layer hinzufügen</p>
+<p>➥ Serversuche</p>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-11 bespoke-slide bespoke-inactive bespoke-after bespoke-after-11" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-11">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 4.88px; left: 75px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 874px; height: 756.95px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.98, 0.98);
+-moz-transform: scale(0.98, 0.98);
+transform: scale(0.98, 0.98)">
+<img src="01_Grundlagen-Dateien/X8Yohm0.jpg">
+</div>
+</div>
+						
+							<div class="componentContainer " style="top: 300px; left: 111px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 93px; height: 93px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.36, 0.36);
+-moz-transform: scale(0.36, 0.36);
+transform: scale(0.36, 0.36)">
+<img src="01_Grundlagen-Dateien/arrow-87-xxl.png">
+</div>
+</div>
+						
+							<div class="componentContainer " style="top: 169px; left: 490px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 93px; height: 93px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.36, 0.36);
+-moz-transform: scale(0.36, 0.36);
+transform: scale(0.36, 0.36)">
+<img src="01_Grundlagen-Dateien/arrow-87-xxl.png">
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-12 bespoke-slide bespoke-inactive bespoke-after bespoke-after-12" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-12">
+						<div class="themedArea">
+              			<h3 id="i-grundlagen-datenquellen">I Grundlagen - Datenquellen</h3>
+<h4 id="ogc-geodaten-web-services">OGC-Geodaten Web-Services</h4>
+<p>weitere Dienste:</p>
+<ul>
+<li>OpenStreetMap als WMS: <a href="http://ows.terrestris.de/osm/service?">http://ows.terrestris.de/osm/service?</a> (WMS)</li>
+<li>Gewässer von AtlantGIS <a href="http://143.93.114.113/geoserver/workshop/wfs">http://143.93.114.113/geoserver/workshop/wfs</a> (WFS)</li>
+</ul>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-13 bespoke-slide bespoke-inactive bespoke-after bespoke-after-13" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-13">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: -1px; left: 33px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<iframe src="01_Grundlagen-Dateien/a.htm" height="768" width="960"></iframe>
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-14 bespoke-slide bespoke-inactive bespoke-after bespoke-after-14" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-14">
+						<div class="themedArea">
+              			<h3 id="i-grundlagen">I Grundlagen</h3>
+<h4 id="anpassung-der-benutzeroberfl-che">Anpassung der Benutzeroberfläche</h4>
+<p>Benötigte Werkzeuge(leisten) können ein- und ausgeblendet werden:
+<br> 
+➥ Ansicht ➥ Bedienfelder / Werkzeugkästen</p>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-15 bespoke-slide bespoke-inactive bespoke-after bespoke-after-15" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-15">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 1px; left: 5px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 1013px; height: 769.18px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.97, 0.97);
+-moz-transform: scale(0.97, 0.97);
+transform: scale(0.97, 0.97)">
+<img src="01_Grundlagen-Dateien/LSxoOa2.png">
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-16 bespoke-slide bespoke-inactive bespoke-after bespoke-after-16" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-16">
+						<div class="themedArea">
+              			<h3 id="i-datenquellen">I Datenquellen</h3>
+<h4 id="anpassung-der-benutzeroberfl-che">Anpassung der Benutzeroberfläche</h4>
+<p>Eingabeformulare für Vektordaten können angepasst werden:</p>
+<ul>
+<li>Kontrollierte Vokabulare</li>
+<li>Vordefinierte Werte(bereiche)</li>
+<li>etc.</li>
+</ul>
+
+              			</div>
+						
+							<div class="componentContainer " style="top: 340px; left: 281px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<img src="01_Grundlagen-Dateien/lUUpnsU.png">
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-17 bespoke-slide bespoke-inactive bespoke-after bespoke-after-17" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-17">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 8px; left: -1px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 1027px; height: 756.93px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.75, 0.75);
+-moz-transform: scale(0.75, 0.75);
+transform: scale(0.75, 0.75)">
+<img src="01_Grundlagen-Dateien/7j7y49t.png">
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-18 bespoke-slide bespoke-inactive bespoke-after bespoke-after-18" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-18">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 6.83px; left: 0.65px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 1026px; height: 757.5px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.75, 0.75);
+-moz-transform: scale(0.75, 0.75);
+transform: scale(0.75, 0.75)">
+<img src="01_Grundlagen-Dateien/dwiBSRD.png">
+</div>
+</div>
+						
+							<div class="componentContainer " style="top: 141px; left: 822px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 93px; height: 93px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.36, 0.36);
+-moz-transform: scale(0.36, 0.36);
+transform: scale(0.36, 0.36)">
+<img src="01_Grundlagen-Dateien/arrow-87-xxl.png">
+</div>
+</div>
+						
+							<div class="componentContainer " style="top: 203px; left: 116px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 93px; height: 93px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.36, 0.36);
+-moz-transform: scale(0.36, 0.36);
+transform: scale(0.36, 0.36)">
+<img src="01_Grundlagen-Dateien/arrow-87-xxl.png">
+</div>
+</div>
+						
+							<div class="componentContainer " style="top: 501px; left: 37px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 24px;" class="antialias">
+<a href="http://qgis.org/de/docs/training_manual/create_vector_data/forms.html">http://qgis.org/de/docs/training_manual/create_vector_data/forms.html</a>
+</div>
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-19 bespoke-slide bespoke-inactive bespoke-after bespoke-after-19" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-19">
+						<div class="themedArea">
+              			<h3 id="i-datenquellen">I Datenquellen</h3>
+<h4 id="n-tzliche-erweiterungen-zur-datenpflege">Nützliche Erweiterungen zur Datenpflege</h4>
+<ul>
+<li>QGIS-Browser<ul>
+<li>Dateimanager, Metadaten</li>
+</ul>
+</li>
+<li>Table Manager<ul>
+<li>Erweiterte Funktionen für Attributtabellen</li>
+</ul>
+</li>
+<li>OpenLayers<ul>
+<li>Einbinden Karten-/Satellitendaten GeoWeb-APIs<ul>
+<li>Vorsicht: Ändert KBS für das Projekt</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Value Tool<ul>
+<li>Interaktives Abgreifen von Rasterzellenwerten</li>
+</ul>
+</li>
+<li>GPS Werkzeuge<ul>
+<li>Laden/Editieren von gpx-Daten</li>
+<li>Up- und Download vom/zum GPS-Gerät<ul>
+<li>Benötigt <a href="http://www.gpsbabel.org/">GPSBabel</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-20 bespoke-slide bespoke-inactive bespoke-after bespoke-after-20" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-20">
+						<div class="themedArea">
+              			<h3 id="i-datenquellen">I Datenquellen</h3>
+<h4 id="erweiterungen-installieren">Erweiterungen installieren</h4>
+
+              			</div>
+						
+							<div class="componentContainer " style="top: 184px; left: 76px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 772px; height: 530.01px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.74, 0.74);
+-moz-transform: scale(0.74, 0.74);
+transform: scale(0.74, 0.74)">
+<img src="01_Grundlagen-Dateien/8CvLmUL.jpg">
+</div>
+</div>
+						
+							<div class="componentContainer " style="top: 324px; left: 345px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 637px; height: 428.08px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.73, 0.73);
+-moz-transform: scale(0.73, 0.73);
+transform: scale(0.73, 0.73)">
+<img src="01_Grundlagen-Dateien/ADJ0Zkp.jpg">
+</div>
+</div>
+						
+							<div class="componentContainer " style="top: 350px; left: 626px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 54px; height: 54px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.21, 0.21);
+-moz-transform: scale(0.21, 0.21);
+transform: scale(0.21, 0.21)">
+<img src="01_Grundlagen-Dateien/arrow-87-xxl.png">
+</div>
+</div>
+						
+							<div class="componentContainer " style="top: 182px; left: 462px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 93px; height: 93px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.36, 0.36);
+-moz-transform: scale(0.36, 0.36);
+transform: scale(0.36, 0.36)">
+<img src="01_Grundlagen-Dateien/arrow-87-xxl.png">
+</div>
+</div>
+						
+							<div class="componentContainer " style="top: 365px; left: 438px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 54px; height: 54px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.21, 0.21);
+-moz-transform: scale(0.21, 0.21);
+transform: scale(0.21, 0.21)">
+<img src="01_Grundlagen-Dateien/arrow-87-xxl.png">
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-21 bespoke-slide bespoke-inactive bespoke-after bespoke-after-21" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-21">
+						<div class="themedArea">
+              			<h3 id="i-datenquellen">I Datenquellen</h3>
+<h4 id="versteckte-funktionen-in-men-s-erweiterungen">Versteckte Funktionen in Menüs/Erweiterungen</h4>
+<ul>
+<li><p>Leerwerte bei Raster (Eigenschaften) <br>  </p>
+<p>  ➥ Definition der Werte, die auf NULL gesetzt werden sollen</p>
+<p>  <br>  </p>
+</li>
+<li><p>Datenkodierung setzen<br></p>
+<p>  ➥ Layer ➥ Eigenschaften ➥ Seite "Allgemein" <br>
+  ➥ Datenquellenkodierung (UTF-8)</p>
+</li>
+</ul>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-22 bespoke-slide bespoke-inactive bespoke-after bespoke-after-22" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-22">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 27px; left: 28px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<img src="01_Grundlagen-Dateien/eeVQHOF.jpg">
+</div>
+</div>
+						
+							<div class="componentContainer " style="top: 82px; left: 688px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 93px; height: 93px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.36, 0.36);
+-moz-transform: scale(0.36, 0.36);
+transform: scale(0.36, 0.36)">
+<img src="01_Grundlagen-Dateien/arrow-87-xxl.png">
+</div>
+</div>
+						
+							<div class="componentContainer " style="top: 337px; left: 298px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 48px;" class="antialias">
+<font color="#f10808">Leerwerte bei Raster</font>
+</div>
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-23 bespoke-slide bespoke-inactive bespoke-after bespoke-after-23" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-23">
+						<div class="themedArea">
+              			
+              			</div>
+						
+							<div class="componentContainer " style="top: 44px; left: 60px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<img src="01_Grundlagen-Dateien/eGfYEZI.jpg">
+</div>
+</div>
+						
+							<div class="componentContainer " style="top: 138px; left: 497px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 93px; height: 93px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.36, 0.36);
+-moz-transform: scale(0.36, 0.36);
+transform: scale(0.36, 0.36)">
+<img src="01_Grundlagen-Dateien/arrow-87-xxl.png">
+</div>
+</div>
+						
+							<div class="componentContainer " style="top: 475px; left: 381px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 48px;" class="antialias">
+<font color="#ff0000">Datenkodierung</font>
+</div>
+</div>
+</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-24 bespoke-slide bespoke-inactive bespoke-after bespoke-after-24" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-24">
+						<div class="themedArea">
+              			<h3 id="datenformate">Datenformate</h3>
+<ul>
+<li>QGIS nutzt die Geospatial Data Abstraction Library (GDAL)<ul>
+<li><a href="http://www.gdal.org/">http://www.gdal.org/</a></li>
+<li>GDAL-Utilities<ul>
+<li>gdalinfo - Dateiinformationen (Raster)</li>
+<li>gdal_translate - Rasterdaten konvertieren</li>
+<li>gdalwarp - Projizieren von Rasterdaten</li>
+<li>gdal_contour - Höhenlinien aus DGM rechnen</li>
+<li>gdaldem - Analyse und Visualisierung von DGMs</li>
+<li>gdal_rasterize - Raster aus Vektordaten erstellen</li>
+<li>gdaltransform - Koordinatenlisten umrechnen</li>
+</ul>
+</li>
+<li>Umfangreiche Funktionen über Konsole für große Datensätze/Batch-Modus</li>
+<li>QGIS-Menü 'Raster' bietet GUI für eine Reihe dieser Werkzeuge</li>
+</ul>
+</li>
+</ul>
+
+              			</div>
+						
+					</section>
+				
+			
+				
+					<section class="slideContainer strut-slide-25 bespoke-slide bespoke-inactive bespoke-after bespoke-after-25" style="width: 1024px; height: 768px;" data-bespoke-state="strut-slide-25">
+						<div class="themedArea">
+              			<h3 id="datenformate">Datenformate</h3>
+<ul>
+<li><p>Vektordaten in QGIS: OGR Simple Features Library</p>
+<ul>
+<li>Teil des GDAL-Projekts<ul>
+<li><a href="http://www.gdal.org/ogr/">http://www.gdal.org/ogr/</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="h-ufig-bersehen">Häufig übersehen</h4>
+<ul>
+<li><p>Die Website des Projekts bietet eine extrem umfangreiche Dokumentation zu allen möglichen Geodatenformaten</p>
+<ul>
+<li>Rasterdatenformate<ul>
+<li><a href="http://www.gdal.org/formats_list.html">http://www.gdal.org/formats_list.html</a></li>
+</ul>
+</li>
+<li>Vektordatenformate<ul>
+<li><a href="http://www.gdal.org/ogr/ogr_formats.html">http://www.gdal.org/ogr/ogr_formats.html</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+              			</div>
+						
+					</section>
+				
+			
+		</article>
+	</div>
+
+</body></html>
